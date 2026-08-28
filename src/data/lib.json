@@ -1,0 +1,320 @@
+[
+  {
+    "codigo": "1023375",
+    "nombre": "POUCH; para plastificado en caliente,150 micrones, A3 (310 x 440 mm)",
+    "minimo": 25,
+    "maximo": 100
+  },
+  {
+    "codigo": "1014114",
+    "nombre": "CINTA ADHESIVA; transparente, (48 mm x 50 m)",
+    "minimo": 0,
+    "maximo": 6
+  },
+  {
+    "codigo": "1005815",
+    "nombre": "LÁPIZ; mecánico de metal 0,5 mm",
+    "minimo": 5,
+    "maximo": 24
+  },
+  {
+    "codigo": "1004809",
+    "nombre": "PILA; mediana C (batería)",
+    "minimo": 5,
+    "maximo": 20
+  },
+  {
+    "codigo": "1018847",
+    "nombre": "ADHESIVO; en barra, UHU/PELIKAN (x 21 g)",
+    "minimo": 10,
+    "maximo": 36
+  },
+  {
+    "codigo": "1005709",
+    "nombre": "ADHESIVO; vinílico, transparente, VOLIGOMA/PELIKAN (x 50 ml)",
+    "minimo": 10,
+    "maximo": 36
+  },
+  {
+    "codigo": "1005730",
+    "nombre": "BROCHE; p/abrochadora N° 50 (x 1000 u)",
+    "minimo": 5,
+    "maximo": 10
+  },
+  {
+    "codigo": "1005731",
+    "nombre": "BROCHE; p/abrochadora N° 64 (x 1000 u)",
+    "minimo": 5,
+    "maximo": 10
+  },
+  {
+    "codigo": "1005780",
+    "nombre": "CORRECTOR; en cinta roller 4,2 mm",
+    "minimo": 5,
+    "maximo": 12
+  },
+  {
+    "codigo": "1005774",
+    "nombre": "CLIP; metálico forrado en plástico 3,3 cm (x 100 u)",
+    "minimo": 0,
+    "maximo": 4
+  },
+  {
+    "codigo": "1004808",
+    "nombre": "PILA; chica AA (batería)",
+    "minimo": 10,
+    "maximo": 40
+  },
+  {
+    "codigo": "1004806",
+    "nombre": "PILA; chica AAA (batería)",
+    "minimo": 10,
+    "maximo": 40
+  },
+  {
+    "codigo": "1005791",
+    "nombre": "GOMA; p/borrar lápiz",
+    "minimo": 5,
+    "maximo": 12
+  },
+  {
+    "codigo": "1005805",
+    "nombre": "MINA; 0,5 mm (x 12 u)",
+    "minimo": 5,
+    "maximo": 12
+  },
+  {
+    "codigo": "1005827",
+    "nombre": "SACAPUNTAS; metálico",
+    "minimo": 0,
+    "maximo": 6
+  },
+  {
+    "codigo": "1005768",
+    "nombre": "CINTA ADHESIVA; transparente (12 mm x 30 m)",
+    "minimo": 5,
+    "maximo": 12
+  },
+  {
+    "codigo": "1021301",
+    "nombre": "MARCADOR; permanente, trazo grueso, punta redonda, VERDE",
+    "minimo": 5,
+    "maximo": 24
+  },
+  {
+    "codigo": "1021299",
+    "nombre": "MARCADOR; permanente, trazo grueso, punta redonda, ROJO",
+    "minimo": 5,
+    "maximo": 24
+  },
+  {
+    "codigo": "1005804",
+    "nombre": "MARCADOR; permanente, trazo grueso, punta redonda, NEGRO",
+    "minimo": 5,
+    "maximo": 24
+  },
+  {
+    "codigo": "1021300",
+    "nombre": "MARCADOR; permanente, trazo grueso, punta redonda, AZUL",
+    "minimo": 5,
+    "maximo": 24
+  },
+  {
+    "codigo": "1028645",
+    "nombre": "RESALTADOR; rosa (o fucsia)",
+    "minimo": 10,
+    "maximo": 30
+  },
+  {
+    "codigo": "1005823",
+    "nombre": "RESALTADOR; naranja",
+    "minimo": 10,
+    "maximo": 30
+  },
+  {
+    "codigo": "1005821",
+    "nombre": "RESALTADOR; verde",
+    "minimo": 10,
+    "maximo": 30
+  },
+  {
+    "codigo": "1005822",
+    "nombre": "RESALTADOR; celeste",
+    "minimo": 5,
+    "maximo": 24
+  },
+  {
+    "codigo": "1005820",
+    "nombre": "RESALTADOR; amarillo",
+    "minimo": 10,
+    "maximo": 40
+  },
+  {
+    "codigo": "1005801",
+    "nombre": "MARCADOR; permanente, doble punta (fina y extra fina), NEGRO",
+    "minimo": 10,
+    "maximo": 36
+  },
+  {
+    "codigo": "1005802",
+    "nombre": "MARCADOR; permanente 1 mm, NEGRO, EDDING 400 / SHARPIE",
+    "minimo": 10,
+    "maximo": 36
+  },
+  {
+    "codigo": "1005803",
+    "nombre": "MARCADOR; borrable p/pizarrón trazo grueso, punta redonda NEGRO",
+    "minimo": 10,
+    "maximo": 36
+  },
+  {
+    "codigo": "1022629",
+    "nombre": "MARCADOR; borrable p/pizarrón trazo grueso, punta redonda VERDE",
+    "minimo": 10,
+    "maximo": 36
+  },
+  {
+    "codigo": "1022628",
+    "nombre": "MARCADOR; borrable p/pizarrón trazo grueso, punta redonda AZUL",
+    "minimo": 10,
+    "maximo": 36
+  },
+  {
+    "codigo": "1022627",
+    "nombre": "MARCADOR; borrable p/pizarrón trazo grueso, punta redonda ROJO",
+    "minimo": 10,
+    "maximo": 36
+  },
+  {
+    "codigo": "1005798",
+    "nombre": "LÁPIZ; negro c/goma",
+    "minimo": 10,
+    "maximo": 48
+  },
+  {
+    "codigo": "1005778",
+    "nombre": "CORRECTOR; en lápiz punta metálica",
+    "minimo": 10,
+    "maximo": 36
+  },
+  {
+    "codigo": "1005720",
+    "nombre": "BOLÍGRAFO; negro",
+    "minimo": 25,
+    "maximo": 100
+  },
+  {
+    "codigo": "1005719",
+    "nombre": "BOLÍGRAFO; azul",
+    "minimo": 25,
+    "maximo": 100
+  },
+  {
+    "codigo": "1005721",
+    "nombre": "BOLÍGRAFO; rojo",
+    "minimo": 15,
+    "maximo": 50
+  },
+  {
+    "codigo": "1005722",
+    "nombre": "BOLÍGRAFO; verde",
+    "minimo": 15,
+    "maximo": 50
+  },
+  {
+    "codigo": "1005716",
+    "nombre": "BANDA ELÁSTICA; (x 50 g)",
+    "minimo": 0,
+    "maximo": 3
+  },
+  {
+    "codigo": "1005807",
+    "nombre": "NOTAS ADHESIVAS; 7,5 x 7,5 cm (x 100 u)",
+    "minimo": 10,
+    "maximo": 48
+  },
+  {
+    "codigo": "1018391",
+    "nombre": "PAPEL; A4 (21 x 29,7 cm), x 75/80 gr, AUTOR",
+    "minimo": 5,
+    "maximo": 10
+  },
+  {
+    "codigo": "1011944",
+    "nombre": "PAPEL; A3 (42 x 29,7 cm)",
+    "minimo": 0,
+    "maximo": 2
+  },
+  {
+    "codigo": "1005790",
+    "nombre": "FOLIO; tamaño oficio (24 x 35 cm)",
+    "minimo": 75,
+    "maximo": 300
+  },
+  {
+    "codigo": "1005789",
+    "nombre": "FOLIO; 50 micrones, A4 (24 x 30 cm)",
+    "minimo": 50,
+    "maximo": 200
+  },
+  {
+    "codigo": "1005748",
+    "nombre": "CARPETA; A4 (31,5 x 24 cm) PVC, c/sujetador metálico forrado en plástico, CLINGSOR 14C / LAMA",
+    "minimo": 5,
+    "maximo": 12
+  },
+  {
+    "codigo": "1005745",
+    "nombre": "CARPETA; oficio (24,7 x 36 cm) PVC, c/sujetador metálico forrado en plástico, CLINGSOR 24C / LAMA",
+    "minimo": 5,
+    "maximo": 24
+  },
+  {
+    "codigo": "1004738",
+    "nombre": "ETIQUETA; autoadhesiva, 105 x 74,2 mm, 8 x hoja - A4",
+    "minimo": 25,
+    "maximo": 100
+  },
+  {
+    "codigo": "1014899",
+    "nombre": "ETIQUETA; autoadhesiva, 105 x 148 mm, 4 x hoja - A4",
+    "minimo": 25,
+    "maximo": 100
+  },
+  {
+    "codigo": "1005848",
+    "nombre": "SOBRE; oficio inglés 80g (12 x 23,5 cm)",
+    "minimo": 50,
+    "maximo": 200
+  },
+  {
+    "codigo": "1027510",
+    "nombre": "SOBRE; bolsa manila 120g (27 x 37 cm)",
+    "minimo": 50,
+    "maximo": 200
+  },
+  {
+    "codigo": "1027512",
+    "nombre": "SOBRE; bolsa manila 120g (30 x 40 cm)",
+    "minimo": 50,
+    "maximo": 200
+  },
+  {
+    "codigo": "1013605",
+    "nombre": "SOBRE; bolsa manila 80g (19 x 24 cm)",
+    "minimo": 50,
+    "maximo": 200
+  },
+  {
+    "codigo": "1016519",
+    "nombre": "SOBRE; bolsa manila 80g (20,5 x 28 cm)",
+    "minimo": 50,
+    "maximo": 200
+  },
+  {
+    "codigo": "1027511",
+    "nombre": "SOBRE; bolsa manila 120g (23 x 32 cm)",
+    "minimo": 50,
+    "maximo": 200
+  }
+]

@@ -1,0 +1,6 @@
+html, body, #root { min-height: 100%; }
+body { margin: 0; min-width: 320px; }
+button, input { touch-action: manipulation; }
+@media (min-width: 900px) {
+  body { background-image: radial-gradient(circle at 50% -10%, rgba(100,100,100,.10), transparent 45%); }
+}

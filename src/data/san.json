@@ -1,0 +1,1456 @@
+[
+  {
+    "codigo": "1020291",
+    "nombre": "CAFÉ; tostado en grano, Gourmet",
+    "minimo": 75,
+    "maximo": 300
+  },
+  {
+    "codigo": "1011775",
+    "nombre": "ESENCIA; de vainilla, FLOR - CALSA (x 2 l)",
+    "minimo": 0,
+    "maximo": 6
+  },
+  {
+    "codigo": "1009488",
+    "nombre": "ACEITUNA; negra, fileteada, (x 5 kg)",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA A01 A01"
+  },
+  {
+    "codigo": "1009485",
+    "nombre": "ACEITUNA; verde, descarozada, (x 8 k)",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA A01 A02"
+  },
+  {
+    "codigo": "1009487",
+    "nombre": "ACEITUNA; verde, fileteada, (x 4 kg)",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA A01 A03"
+  },
+  {
+    "codigo": "1006335",
+    "nombre": "MAYONESA; sachet, HELLMANNS CLÁSICA (x 2,900 ml)",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A01 B01"
+  },
+  {
+    "codigo": "1024509",
+    "nombre": "SALSA BARBACOA; en sachet, (x 3 kg)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA A01 B02"
+  },
+  {
+    "codigo": "1013924",
+    "nombre": "KETCHUP; en sachet, HELLMANNS (x 3 kg)",
+    "minimo": 5,
+    "maximo": 10,
+    "bin": "CA A01 B03"
+  },
+  {
+    "codigo": "1006344",
+    "nombre": "MOSTAZA; en sachet, SAVORA (x 3 kg)",
+    "minimo": 5,
+    "maximo": 18,
+    "bin": "CA A01 B04"
+  },
+  {
+    "codigo": "1006417",
+    "nombre": "SAL; fina, estuche, DOS ANCLAS (x 500 g)",
+    "minimo": 100,
+    "maximo": 400,
+    "bin": "CA A01 C01 IFE"
+  },
+  {
+    "codigo": "1006416",
+    "nombre": "SAL; entrefina (parrillera), estuche, DOS ANCLAS (x 1 kg)",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A01 C02"
+  },
+  {
+    "codigo": "1006418",
+    "nombre": "SAL; gruesa ,estuche, DOS ANCLAS (x 1 kg)",
+    "minimo": 10,
+    "maximo": 36,
+    "bin": "CA A01 C03"
+  },
+  {
+    "codigo": "1019320",
+    "nombre": "ACETO; balsámico (x 2lt)",
+    "minimo": 0,
+    "maximo": 8,
+    "bin": "CA A01 D01"
+  },
+  {
+    "codigo": "1006425",
+    "nombre": "SALSA; de soja (x 1,9 l)",
+    "minimo": 5,
+    "maximo": 15,
+    "bin": "CA A01 D02"
+  },
+  {
+    "codigo": "1009503",
+    "nombre": "TOMATE; perita, pelado, en lata, GENTLEMAN (x 2,930 kg)",
+    "minimo": 65,
+    "maximo": 260,
+    "bin": "CA A02 AXX IFE"
+  },
+  {
+    "codigo": "1023083",
+    "nombre": "ALMIDÓN; de maíz, MAIZENA (x 15 kg)",
+    "minimo": 0,
+    "maximo": 4,
+    "bin": "CA A02 B01"
+  },
+  {
+    "codigo": "1006326",
+    "nombre": "MANDIOCA; fécula (x 1 kg)",
+    "minimo": 25,
+    "maximo": 100,
+    "bin": "CA A02 B02"
+  },
+  {
+    "codigo": "1006357",
+    "nombre": "PAN RALLADO; común ( x 5 kg)",
+    "minimo": 5,
+    "maximo": 18,
+    "bin": "CA A02 CXX"
+  },
+  {
+    "codigo": "1009517",
+    "nombre": "SALSA; tipo inglesa, (x 190 / 220 cm3)",
+    "minimo": 5,
+    "maximo": 15,
+    "bin": "CA A02 D01"
+  },
+  {
+    "codigo": "1019437",
+    "nombre": "LECHE; en polvo, entera, (x 25 k)",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA A03 AXX"
+  },
+  {
+    "codigo": "1019283",
+    "nombre": "ATÚN; en lata, al natural, en lomito (x 1880 g)",
+    "minimo": 5,
+    "maximo": 25,
+    "bin": "CA A03 B01 IFE"
+  },
+  {
+    "codigo": "1009510",
+    "nombre": "CHOCLO; en grano, enlatado (x 800 g - 820 g)",
+    "minimo": 40,
+    "maximo": 150,
+    "bin": "CA A03 B02"
+  },
+  {
+    "codigo": "1010545",
+    "nombre": "PALMITO; entero (x 400/800 g)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA A03 B03"
+  },
+  {
+    "codigo": "1018426",
+    "nombre": "PIMIENTO; morrón, entero, CARACAS (x 2,500 kg)",
+    "minimo": 5,
+    "maximo": 12,
+    "bin": "CA A03 C01"
+  },
+  {
+    "codigo": "1014159",
+    "nombre": "ARVEJA; en lata (x 2950 ml)",
+    "minimo": 10,
+    "maximo": 36,
+    "bin": "CA A03 C02 IFE"
+  },
+  {
+    "codigo": "1006260",
+    "nombre": "DULCE; de batata con chocolate, en lata, ARCOR (x 5 kg)",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA A03 D01"
+  },
+  {
+    "codigo": "1006259",
+    "nombre": "DULCE; de batata, en lata, ARCOR (x 5 kg)",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA A03 D02"
+  },
+  {
+    "codigo": "1006264",
+    "nombre": "DULCE; de membrillo, en lata, ARCOR (x 5 kg)",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA A03 D03"
+  },
+  {
+    "codigo": "1014671",
+    "nombre": "CEREAL; almohadita rellena",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA A04 A01"
+  },
+  {
+    "codigo": "1005962",
+    "nombre": "ALMENDRA; (x kg)",
+    "minimo": 40,
+    "maximo": 160,
+    "bin": "CA A04 A02"
+  },
+  {
+    "codigo": "1006349",
+    "nombre": "NUEZ; mariposa, blanca (x 5kg)",
+    "minimo": 10,
+    "maximo": 35,
+    "bin": "CA A04 A03 IFE"
+  },
+  {
+    "codigo": "1013781",
+    "nombre": "AVENA; instantánea, fortificada (x 1 kg)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA A04 B01 IFE"
+  },
+  {
+    "codigo": "1006327",
+    "nombre": "MANÍ; pelado, (por kg)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA A04 B03"
+  },
+  {
+    "codigo": "1017235",
+    "nombre": "CEREAL; granola (x 1 kg)",
+    "minimo": 5,
+    "maximo": 15,
+    "bin": "CA A04 B04"
+  },
+  {
+    "codigo": "1012563",
+    "nombre": "ARROZ; yamaní (x 5 kg)",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A04 C01 IFE"
+  },
+  {
+    "codigo": "1011176",
+    "nombre": "ARROZ; grano largo fino, parbolizado, GALLO ORO / DOS HERMANOS (x 5 kg)",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA A04 C02 IFE"
+  },
+  {
+    "codigo": "1011774",
+    "nombre": "POLVO; de hornear, CALSA x 4kg",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA A52 A02"
+  },
+  {
+    "codigo": "1025119",
+    "nombre": "Gelatina, Surtido, ORLOC (X 5kg)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA A52 B01"
+  },
+  {
+    "codigo": "1025120",
+    "nombre": "Postre; Surtido, ORLOC (X5kg)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA A52 B02"
+  },
+  {
+    "codigo": "1025121",
+    "nombre": "Flan; Surtido, ORLOC (X5kg)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA A52 CXX"
+  },
+  {
+    "codigo": "1005951",
+    "nombre": "ADITIVO; p/pan, FORMULA 1 (x 10 k)",
+    "minimo": 0,
+    "maximo": 1,
+    "bin": "CA A52 D01"
+  },
+  {
+    "codigo": "1014297",
+    "nombre": "GELATINA; sin sabor (x 1 Kg)",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA A52 D02"
+  },
+  {
+    "codigo": "1011773",
+    "nombre": "CROCANTE; de maní (x 1 kg)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA A52 D03"
+  },
+  {
+    "codigo": "1006237",
+    "nombre": "CARAMELO; líquido (x 1250 cm3)",
+    "minimo": 5,
+    "maximo": 27,
+    "bin": "CA A52 E01"
+  },
+  {
+    "codigo": "1006275",
+    "nombre": "EXTRACTO; de malta, HUDSON (x 5 kg)",
+    "minimo": 0,
+    "maximo": 4,
+    "bin": "CA A53 A01"
+  },
+  {
+    "codigo": "1006224",
+    "nombre": "CACAO; amargo, en polvo, FENIX",
+    "minimo": 0,
+    "maximo": 8,
+    "bin": "CA A53 B01"
+  },
+  {
+    "codigo": "1024172",
+    "nombre": "CACAO; en polvo, amargo, Alpino (x 180 g)",
+    "minimo": 5,
+    "maximo": 10,
+    "bin": "CA A53 C02"
+  },
+  {
+    "codigo": "1006002",
+    "nombre": "AZÚCAR; negro (x 5 kg)",
+    "minimo": 5,
+    "maximo": 12,
+    "bin": "CA A53 D01"
+  },
+  {
+    "codigo": "1023087",
+    "nombre": "AZÚCAR; impalpable",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA A53 D02"
+  },
+  {
+    "codigo": "1006364",
+    "nombre": "UVA; pasa, sultanina, sin semilla, negra (x 10 kg)",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA A54 A01"
+  },
+  {
+    "codigo": "1011836",
+    "nombre": "FRUTA; abrillantada, mezcla (caja x 10 kg)",
+    "minimo": 0,
+    "maximo": 3,
+    "bin": "CA A54 A02"
+  },
+  {
+    "codigo": "1006315",
+    "nombre": "LENTEJA; (x 5 kg)",
+    "minimo": 5,
+    "maximo": 12,
+    "bin": "CA A54 B01"
+  },
+  {
+    "codigo": "1012483",
+    "nombre": "SEMILLA; de chía",
+    "minimo": 5,
+    "maximo": 15,
+    "bin": "CA A54 B01"
+  },
+  {
+    "codigo": "1012478",
+    "nombre": "SEMILLA; de girasol",
+    "minimo": 5,
+    "maximo": 18,
+    "bin": "CA A54 B02"
+  },
+  {
+    "codigo": "1006437",
+    "nombre": "SÉSAMO; blanco",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A54 B03"
+  },
+  {
+    "codigo": "1012484",
+    "nombre": "SEMILLA; de lino",
+    "minimo": 5,
+    "maximo": 15,
+    "bin": "CA A54 C01"
+  },
+  {
+    "codigo": "1024730",
+    "nombre": "ARÁNDANOS; deshidratados",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A54 C02"
+  },
+  {
+    "codigo": "1006285",
+    "nombre": "GARBANZO",
+    "minimo": 15,
+    "maximo": 50,
+    "bin": "CA A54 C02 IFE"
+  },
+  {
+    "codigo": "1024174",
+    "nombre": "DAMASCO; pasa, seca (x kg)",
+    "minimo": 5,
+    "maximo": 12,
+    "bin": "CA A54 D01"
+  },
+  {
+    "codigo": "1024173",
+    "nombre": "CIRUELAS; pasa, seca (x kg)",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A54 D02"
+  },
+  {
+    "codigo": "1024731",
+    "nombre": "QUINOA",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A54 D03"
+  },
+  {
+    "codigo": "1006247",
+    "nombre": "COCO; rallado",
+    "minimo": 5,
+    "maximo": 25,
+    "bin": "CA A54 EXX"
+  },
+  {
+    "codigo": "1009515",
+    "nombre": "POROTO; manteca (x 3 kg)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA A55 A01"
+  },
+  {
+    "codigo": "1014161",
+    "nombre": "POROTO; negro (x 5kg)",
+    "minimo": 5,
+    "maximo": 12,
+    "bin": "CA A55 A02 IFE"
+  },
+  {
+    "codigo": "1022836",
+    "nombre": "MAÍZ PARTIDO PARA LOCRO; (x bolsa)",
+    "minimo": 0,
+    "maximo": 8,
+    "bin": "CA A55 B02"
+  },
+  {
+    "codigo": "1010350",
+    "nombre": "POROTO; pallares (x 5 kg)",
+    "minimo": 5,
+    "maximo": 12,
+    "bin": "CA A55 C01"
+  },
+  {
+    "codigo": "1023303",
+    "nombre": "SALVADO; de trigo, grueso, en bolsa, (x 1 kg)",
+    "minimo": 5,
+    "maximo": 15,
+    "bin": "CA A55 D01"
+  },
+  {
+    "codigo": "1019693",
+    "nombre": "TRIGO; burgol, fino",
+    "minimo": 5,
+    "maximo": 15,
+    "bin": "CA A55 D02"
+  },
+  {
+    "codigo": "1011068",
+    "nombre": "CEREAL; copo de maíz (x 2 kg / 2,5 kg)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA AO4 B02"
+  },
+  {
+    "codigo": "1021342",
+    "nombre": "LECHE; en botella, larga vida, 0% lactosa, (x 1 l)",
+    "minimo": 55,
+    "maximo": 220,
+    "bin": "CA B01 BXX"
+  },
+  {
+    "codigo": "1013938",
+    "nombre": "MOSTAZA; en sachet, x 125/250 cm3, SAVORA.",
+    "minimo": 5,
+    "maximo": 12,
+    "bin": "CA B01 D01"
+  },
+  {
+    "codigo": "1019382",
+    "nombre": "MIEL; pura de abeja, frasco (x 500 g)",
+    "minimo": 65,
+    "maximo": 250,
+    "bin": "CA B02 B02"
+  },
+  {
+    "codigo": "1014293",
+    "nombre": "GALLETITA; sin sal, GRANIX / EXPRESS / CRIOLLITAS (x 100 - 200g)",
+    "minimo": 75,
+    "maximo": 300,
+    "bin": "CA B02 CXX"
+  },
+  {
+    "codigo": "1017338",
+    "nombre": "SALSA BARBACOA; marca KANSAS (x 253 cm3)",
+    "minimo": 20,
+    "maximo": 80,
+    "bin": "CA B02 D01"
+  },
+  {
+    "codigo": "1006302",
+    "nombre": "KETCHUP; en sachet, x 60 g,  HELLMANNS / LA CAMPAGNOLA(x 30un)",
+    "minimo": 5,
+    "maximo": 16,
+    "bin": "CA B02 D02"
+  },
+  {
+    "codigo": "1014653",
+    "nombre": "MAYONESA LIGHT; sachet, 125/250 cm3, HELLMANS.",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA B02 D03"
+  },
+  {
+    "codigo": "1016651",
+    "nombre": "MAYONESA; clásica, sachet, x 125 cm3, HELLMANS / NATURA (x 20 u.)",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA B02 E02"
+  },
+  {
+    "codigo": "1014190",
+    "nombre": "MAYOLIVA; sachet, 125 cm3, AGD( x 20un)",
+    "minimo": 0,
+    "maximo": 9,
+    "bin": "CA B02 EO3"
+  },
+  {
+    "codigo": "1011199",
+    "nombre": "CAFÉ; de filtro, en saquitos x 5 g",
+    "minimo": 25,
+    "maximo": 90,
+    "bin": "CA B03 AXX"
+  },
+  {
+    "codigo": "1024108",
+    "nombre": "MERMELADA; 350-500gr, (x 1un)",
+    "minimo": 40,
+    "maximo": 160,
+    "bin": "CA B03 B01"
+  },
+  {
+    "codigo": "1024515",
+    "nombre": "CAFE ; tostado, molido (250-500 gr)",
+    "minimo": 75,
+    "maximo": 300,
+    "bin": "CA B03 BXX"
+  },
+  {
+    "codigo": "1011537",
+    "nombre": "MATE COCIDO; en saquitos, ensobrados (cajita x 100 u)",
+    "minimo": 5,
+    "maximo": 25,
+    "bin": "CA B03 C01"
+  },
+  {
+    "codigo": "1011590",
+    "nombre": "TE; en saquitos, boldo (x 25 u)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B03 C02"
+  },
+  {
+    "codigo": "1022021",
+    "nombre": "AZÚCAR; blanco, común (x 1 Kg)",
+    "minimo": 45,
+    "maximo": 180,
+    "bin": "CA B04 AXX"
+  },
+  {
+    "codigo": "1006003",
+    "nombre": "AZÚCAR; en sobres (x 800 / 1000 u.)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B04 B01"
+  },
+  {
+    "codigo": "1011974",
+    "nombre": "EDULCORANTE; en sobre, 1 A 10, HILERET (x 500 u)",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA B04 B02"
+  },
+  {
+    "codigo": "1011973",
+    "nombre": "EDULCORANTE; líquido, STEVIA (x 125 / 250 ml)",
+    "minimo": 25,
+    "maximo": 100,
+    "bin": "CA B04 B03"
+  },
+  {
+    "codigo": "1014160",
+    "nombre": "TÉ; en saquitos, ensobrados, (x 100 u)",
+    "minimo": 5,
+    "maximo": 12,
+    "bin": "CA B04 C01"
+  },
+  {
+    "codigo": "1024166",
+    "nombre": "TE; en saquitos, frutos rojos,(x 20 u)",
+    "minimo": 25,
+    "maximo": 95,
+    "bin": "CA B04 C02"
+  },
+  {
+    "codigo": "1020203",
+    "nombre": "TE; en saquitos, manzanilla (x 20 u)",
+    "minimo": 25,
+    "maximo": 100,
+    "bin": "CA B04 C03"
+  },
+  {
+    "codigo": "1011713",
+    "nombre": "TE; en saquitos, tilo  (x 25 u)",
+    "minimo": 15,
+    "maximo": 50,
+    "bin": "CA B04 C04"
+  },
+  {
+    "codigo": "1019436",
+    "nombre": "LECHE; en polvo, entera, (x 400 gr)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA B05 A01"
+  },
+  {
+    "codigo": "1024168",
+    "nombre": "LECHE; en polvo, descremada,(x 400 g)",
+    "minimo": 5,
+    "maximo": 22,
+    "bin": "CA B05 A02"
+  },
+  {
+    "codigo": "1006457",
+    "nombre": "YERBA MATE; ROSAMONTE, Suave (x 500 g )",
+    "minimo": 100,
+    "maximo": 400,
+    "bin": "CA B05 BXX"
+  },
+  {
+    "codigo": "1024165",
+    "nombre": "CEBOLLA; deshidratado, en polvo (x 50 g)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B41 C05"
+  },
+  {
+    "codigo": "1023054",
+    "nombre": "CONDIMENTO; p/pizza",
+    "minimo": 0,
+    "maximo": 3,
+    "bin": "CA B50 604"
+  },
+  {
+    "codigo": "1006387",
+    "nombre": "PROVENZAL",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 A01"
+  },
+  {
+    "codigo": "1006414",
+    "nombre": "ROMERO; deshidratado",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 A02"
+  },
+  {
+    "codigo": "1006369",
+    "nombre": "PIMIENTA; blanca, molida",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 B01"
+  },
+  {
+    "codigo": "1014231",
+    "nombre": "PIMIENTA; negra, en grano",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 B02"
+  },
+  {
+    "codigo": "1006370",
+    "nombre": "PIMIENTA; negra, molida",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 B03"
+  },
+  {
+    "codigo": "1012479",
+    "nombre": "MOSTAZA; molida",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA B50 C01"
+  },
+  {
+    "codigo": "1006367",
+    "nombre": "PIMENTÓN; ahumado",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 C02"
+  },
+  {
+    "codigo": "1006368",
+    "nombre": "PIMENTÓN; dulce",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 C03"
+  },
+  {
+    "codigo": "1006351",
+    "nombre": "ORÉGANO",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 D01"
+  },
+  {
+    "codigo": "1006350",
+    "nombre": "NUEZ; moscada",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 D02"
+  },
+  {
+    "codigo": "1005943",
+    "nombre": "COMINO",
+    "minimo": 0,
+    "maximo": 2,
+    "bin": "CA B50 E01"
+  },
+  {
+    "codigo": "1014654",
+    "nombre": "AZAFRÁN; en cápsula, (0.2 gr)",
+    "minimo": 20,
+    "maximo": 75,
+    "bin": "CA B50 E02"
+  },
+  {
+    "codigo": "1023180",
+    "nombre": "CURRY; en polvo, (x kg)",
+    "minimo": 0,
+    "maximo": 9,
+    "bin": "CA B50 E03"
+  },
+  {
+    "codigo": "1012974",
+    "nombre": "KÜMMEL",
+    "minimo": 0,
+    "maximo": 3,
+    "bin": "CA B50 E04"
+  },
+  {
+    "codigo": "1005954",
+    "nombre": "AJÍ; molido",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 F01"
+  },
+  {
+    "codigo": "1023053",
+    "nombre": "AJO; deshidratado, en polvo",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 F02"
+  },
+  {
+    "codigo": "1006235",
+    "nombre": "CANELA; molida",
+    "minimo": 0,
+    "maximo": 3,
+    "bin": "CA B50 F03"
+  },
+  {
+    "codigo": "1012480",
+    "nombre": "CEBOLLA; deshidratada, en polvo",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 F04"
+  },
+  {
+    "codigo": "1023179",
+    "nombre": "CURRY; amarillo, en pasta, (x 400 g)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 G02"
+  },
+  {
+    "codigo": "1023295",
+    "nombre": "CONDIMENTO; p/tacos, Fajita, BADIA (x 595,4 g)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 G05"
+  },
+  {
+    "codigo": "1023294",
+    "nombre": "CONDIMENTO; pimienta/limón, BADIA (x 680,4 g)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B50 G06"
+  },
+  {
+    "codigo": "1012481",
+    "nombre": "CONDIMENTO; finas hierbas",
+    "minimo": 0,
+    "maximo": 3,
+    "bin": "CA B50 G07"
+  },
+  {
+    "codigo": "1007759",
+    "nombre": "CHUCRUT; (x 3 kg)",
+    "minimo": 5,
+    "maximo": 10,
+    "bin": "CA B50 H01"
+  },
+  {
+    "codigo": "1004843",
+    "nombre": "FILTRO; de papel, p/cafetera, N° 4 (x 30/ 40 u)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA B51 A01"
+  },
+  {
+    "codigo": "1022104",
+    "nombre": "FILM; de cocina, rollo, 28 cm x 15 m, SEPARATA",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA B51 A02"
+  },
+  {
+    "codigo": "1004842",
+    "nombre": "FILM; transparente, alimentario, RESINITE - 38 cm x 1000 m",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA B51 A03"
+  },
+  {
+    "codigo": "1022251",
+    "nombre": "NUEZ; moscada, molida (x 25/50 g)",
+    "minimo": 15,
+    "maximo": 50,
+    "bin": "CA B51 B02"
+  },
+  {
+    "codigo": "1022252",
+    "nombre": "ORÉGANO; (x 25/50 g)",
+    "minimo": 30,
+    "maximo": 120,
+    "bin": "CA B51 B03"
+  },
+  {
+    "codigo": "1022248",
+    "nombre": "PIMENTON; dulce (x 25/50 g)",
+    "minimo": 5,
+    "maximo": 15,
+    "bin": "CA B51 B04"
+  },
+  {
+    "codigo": "1022250",
+    "nombre": "PIMIENTA; negra, molida (x 25/50 g)",
+    "minimo": 20,
+    "maximo": 80,
+    "bin": "CA B51 B05"
+  },
+  {
+    "codigo": "1022253",
+    "nombre": "PROVENZAL; (x 25/50 g)",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA B51 B06"
+  },
+  {
+    "codigo": "1020016",
+    "nombre": "LEVADURA; en sobre (x 2 u) (x 10 g)",
+    "minimo": 40,
+    "maximo": 150,
+    "bin": "CA B51 B07 IFE"
+  },
+  {
+    "codigo": "1023338",
+    "nombre": "AJÍ; molido (x 25/50 g)",
+    "minimo": 20,
+    "maximo": 80,
+    "bin": "CA B51 C01"
+  },
+  {
+    "codigo": "1024164",
+    "nombre": "AJO; deshidratado, en polvo, (x 50 g)",
+    "minimo": 30,
+    "maximo": 110,
+    "bin": "CA B51 C02"
+  },
+  {
+    "codigo": "1005861",
+    "nombre": "BICARBONATO; de sodio, (x 25/50 g)",
+    "minimo": 25,
+    "maximo": 100,
+    "bin": "CA B51 C03"
+  },
+  {
+    "codigo": "1004821",
+    "nombre": "REVOLVEDOR; plástico, p/café",
+    "minimo": 5,
+    "maximo": 10,
+    "bin": "CA B51 C03"
+  },
+  {
+    "codigo": "1004852",
+    "nombre": "PAPEL; aluminio, 400 mm x 18 micrones",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA B51 C04"
+  },
+  {
+    "codigo": "1024163",
+    "nombre": "CANELA; molida, en polvo, (x 50 g)",
+    "minimo": 0,
+    "maximo": 8,
+    "bin": "CA B51 C04"
+  },
+  {
+    "codigo": "1024175",
+    "nombre": "CÚRCUMA; en polvo, (x 50g/x100g)",
+    "minimo": 20,
+    "maximo": 80,
+    "bin": "CA B51 C06"
+  },
+  {
+    "codigo": "1023579",
+    "nombre": "POLVO; de hornear, (x 50 / 100 g)",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA B51 D01"
+  },
+  {
+    "codigo": "1020227",
+    "nombre": "BOLSA; p/horno, sin sabor",
+    "minimo": 125,
+    "maximo": 500,
+    "bin": "CA B51 D02"
+  },
+  {
+    "codigo": "1024479",
+    "nombre": "BOLSA; p/ horno, con saborizante",
+    "minimo": 40,
+    "maximo": 150,
+    "bin": "CA B51 D03"
+  },
+  {
+    "codigo": "1012460",
+    "nombre": "SAL; reducida en sodio, GENSER (x 90g)",
+    "minimo": 10,
+    "maximo": 35,
+    "bin": "CA B51 D04"
+  },
+  {
+    "codigo": "1011714",
+    "nombre": "CALDO; de verdura, sin sal, granulado, en sobres x 17,5 g, CALDIET (cajita x 10 sobres)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA B51 D05"
+  },
+  {
+    "codigo": "1010659",
+    "nombre": "BICARBONATO; de Sodio, (x kg)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B51 D06"
+  },
+  {
+    "codigo": "1029005",
+    "nombre": "ESENCIA; de vainilla, MAROLIO/ DOS ANCLAS (x 110 cc)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA B51 D07"
+  },
+  {
+    "codigo": "1009491",
+    "nombre": "PEPINO; agridulce, en vinagre, (x 3 l)",
+    "minimo": 0,
+    "maximo": 3,
+    "bin": "CA B51 F01"
+  },
+  {
+    "codigo": "1023051",
+    "nombre": "DESENGRASANTE; grasa pesada/carbonizada, SUMA PLAQ, D.96 / o F4 DIVERSEY (x 5 l)",
+    "minimo": 0,
+    "maximo": 8,
+    "bin": "CA B52 A01"
+  },
+  {
+    "codigo": "1023050",
+    "nombre": "DETERGENTE; p/lavado manual de vajilla, SUMA DISH, D1, DIVERSEY (x 5 l)",
+    "minimo": 0,
+    "maximo": 8,
+    "bin": "CA B52 A02"
+  },
+  {
+    "codigo": "1005997",
+    "nombre": "ATÚN; en lata, al natural, en lomitos (x 170 g)",
+    "minimo": 100,
+    "maximo": 400,
+    "bin": "CA B52 AXX"
+  },
+  {
+    "codigo": "1010271",
+    "nombre": "TOMATE; puré, en caja (x 520 g)",
+    "minimo": 30,
+    "maximo": 120,
+    "bin": "CA B52 B01"
+  },
+  {
+    "codigo": "1004661",
+    "nombre": "GUANTE; de goma plissé, chico, 6,5 - 7'', MAPA",
+    "minimo": 5,
+    "maximo": 25,
+    "bin": "CA B52 B01"
+  },
+  {
+    "codigo": "1004655",
+    "nombre": "GUANTE; de goma plissé, mediano, (7,5 - 8) MAPA",
+    "minimo": 15,
+    "maximo": 50,
+    "bin": "CA B52 B02"
+  },
+  {
+    "codigo": "1011607",
+    "nombre": "TOMATE; perita, pelado, en lata (x 400 g)",
+    "minimo": 70,
+    "maximo": 280,
+    "bin": "CA B52 B02"
+  },
+  {
+    "codigo": "1004677",
+    "nombre": "GUANTE; de goma plissé, grande, 8,5 - 9'', MAPA",
+    "minimo": 15,
+    "maximo": 50,
+    "bin": "CA B52 B03"
+  },
+  {
+    "codigo": "1004656",
+    "nombre": "GUANTE; de goma plissé, extra grande, 9,5 - 10'', MAPA",
+    "minimo": 15,
+    "maximo": 50,
+    "bin": "CA B52 B04"
+  },
+  {
+    "codigo": "1017269",
+    "nombre": "CHOCLO; en grano, enlatado (x 290 -350 gr)",
+    "minimo": 35,
+    "maximo": 140,
+    "bin": "CA B52 C01"
+  },
+  {
+    "codigo": "1020021",
+    "nombre": "ARVEJA; enlatadas, remojadas, (x 300 - 350 g)",
+    "minimo": 15,
+    "maximo": 50,
+    "bin": "CA B52 C02"
+  },
+  {
+    "codigo": "1020023",
+    "nombre": "POROTOS; enlatados, remojados (x 350 g)",
+    "minimo": 10,
+    "maximo": 38,
+    "bin": "CA B52 C03"
+  },
+  {
+    "codigo": "1020019",
+    "nombre": "PATE DE FOIE; en lata",
+    "minimo": 25,
+    "maximo": 100,
+    "bin": "CA B52 D02"
+  },
+  {
+    "codigo": "1020020",
+    "nombre": "LENTEJA; enlatadas, remojadas, (x 300 - 350 g)",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA B52 D03 IFE"
+  },
+  {
+    "codigo": "1020084",
+    "nombre": "ESPINACA; en lata, LA BANDA (x 350 g)",
+    "minimo": 20,
+    "maximo": 72,
+    "bin": "CA B52 E01"
+  },
+  {
+    "codigo": "1020085",
+    "nombre": "ACELGA; en lata, LA BANDA (x 350 g)",
+    "minimo": 20,
+    "maximo": 80,
+    "bin": "CA B52 E02"
+  },
+  {
+    "codigo": "1012546",
+    "nombre": "BLANQUEADOR; p/tablas de cocina (x 20 l), SUMA BLOCK WHITENER D4.9, DIVERSEY",
+    "minimo": 0,
+    "maximo": 2,
+    "bin": "CA B53 A01"
+  },
+  {
+    "codigo": "1009388",
+    "nombre": "DETERGENTE; líquido, p/ropa, enzimático, CLAX MILD, 3RL1, DIVERSEY",
+    "minimo": 0,
+    "maximo": 4,
+    "bin": "CA B53 A02"
+  },
+  {
+    "codigo": "1013394",
+    "nombre": "GUANTE; de nitrilo, azul, S (x 100 u)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA B53 B01"
+  },
+  {
+    "codigo": "1024740",
+    "nombre": "ACEITUNA; negras, sachet (hasta 250 gr)",
+    "minimo": 25,
+    "maximo": 100,
+    "bin": "CA B53 B01"
+  },
+  {
+    "codigo": "1022010",
+    "nombre": "ACEITUNA; verdes, sachet (hasta 250 gr)",
+    "minimo": 25,
+    "maximo": 100,
+    "bin": "CA B53 B02"
+  },
+  {
+    "codigo": "1028622",
+    "nombre": "GUANTE; de nitrilo, M (x 100 u)",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA B53 B02"
+  },
+  {
+    "codigo": "1028623",
+    "nombre": "GUANTE; de nitrilo, azul, L (x 100 u)",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA B53 B03"
+  },
+  {
+    "codigo": "1028624",
+    "nombre": "GUANTE; de nitrilo, azul, XL (x 100 u)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA B53 B04"
+  },
+  {
+    "codigo": "1021580",
+    "nombre": "PAN; rallado, (x 500 g)",
+    "minimo": 50,
+    "maximo": 200,
+    "bin": "CA B53 C01"
+  },
+  {
+    "codigo": "1018420",
+    "nombre": "ALMIDÓN; de maíz, MAIZENA (x 200g)",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA B53 C02"
+  },
+  {
+    "codigo": "1020015",
+    "nombre": "SALSA; lista, de tomate, para pizza (x 340 g)",
+    "minimo": 40,
+    "maximo": 150,
+    "bin": "CA B53 D01"
+  },
+  {
+    "codigo": "1020014",
+    "nombre": "SALSA; lista, de tomate, pomarola (x 340 g)",
+    "minimo": 20,
+    "maximo": 80,
+    "bin": "CA B53 D02"
+  },
+  {
+    "codigo": "1019317",
+    "nombre": "SALSA; lista, de tomate, filetto (x 340 gr)",
+    "minimo": 20,
+    "maximo": 80,
+    "bin": "CA B53 D03"
+  },
+  {
+    "codigo": "1009518",
+    "nombre": "PURÉ; de papas instantáneo, (x 125 gr.)",
+    "minimo": 45,
+    "maximo": 180,
+    "bin": "CA B53 EXX IFE"
+  },
+  {
+    "codigo": "1006372",
+    "nombre": "POLENTA; harina de maíz, PRESTOPRONTA, ARCOR (x 500/730 g)",
+    "minimo": 30,
+    "maximo": 110,
+    "bin": "CA B54 AXX IFE"
+  },
+  {
+    "codigo": "1021615",
+    "nombre": "HARINA; premezcla, sin TACC, (x 500/ 1000 grs)",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA B54 BXX"
+  },
+  {
+    "codigo": "1022813",
+    "nombre": "HARINA; integral de trigo (x 1 kg)",
+    "minimo": 15,
+    "maximo": 50,
+    "bin": "CA B54 C01"
+  },
+  {
+    "codigo": "1019073",
+    "nombre": "HARINA; premezcla, con levadura, especial para pizzas, PUREZA (x 1 k)",
+    "minimo": 30,
+    "maximo": 120,
+    "bin": "CA B54 C02"
+  },
+  {
+    "codigo": "1022022",
+    "nombre": "HARINA; 0000 (x 1 kg)",
+    "minimo": 30,
+    "maximo": 110,
+    "bin": "CA B54 C03"
+  },
+  {
+    "codigo": "1029015",
+    "nombre": "VINAGRE; de alcohol (x 5 l)",
+    "minimo": 5,
+    "maximo": 10,
+    "bin": "CA B54 D01"
+  },
+  {
+    "codigo": "1029016",
+    "nombre": "VINAGRE; de alcohol, (x 500 cm3/x 1lt)",
+    "minimo": 65,
+    "maximo": 260,
+    "bin": "CA B54 D02"
+  },
+  {
+    "codigo": "1011410",
+    "nombre": "FIDEOS; tirabuzón, LUCCHETTI (x 500 g)",
+    "minimo": 70,
+    "maximo": 280,
+    "bin": "CA B55 AXX IFE"
+  },
+  {
+    "codigo": "1009233",
+    "nombre": "FIDEOS; mostachol, LUCCHETTI (x 500 g)",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA B55 B01"
+  },
+  {
+    "codigo": "1011407",
+    "nombre": "FIDEOS; spaghetti, LUCCHETTI / KNORR (x 500 g)",
+    "minimo": 60,
+    "maximo": 240,
+    "bin": "CA B55 B02 IFE"
+  },
+  {
+    "codigo": "1023291",
+    "nombre": "PASTA; sin TACC (ver nota)",
+    "minimo": 40,
+    "maximo": 160,
+    "bin": "CA B55 C01"
+  },
+  {
+    "codigo": "1022024",
+    "nombre": "ARROZ; yamaní (x 1 kg)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA B55 C02"
+  },
+  {
+    "codigo": "1022019",
+    "nombre": "ARROZ; grano largo fino, parbolizado, GALLO ORO (x 1 kg )",
+    "minimo": 40,
+    "maximo": 150,
+    "bin": "CA B55 C03"
+  },
+  {
+    "codigo": "1029007",
+    "nombre": "JUGO; de limón, MINERVA (x 1 L)",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA B55 DXX"
+  },
+  {
+    "codigo": "1006297",
+    "nombre": "HARINA; 0000 (x 25 kg)",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA C01 A01 IFE"
+  },
+  {
+    "codigo": "1006436",
+    "nombre": "SEMOLÍN; (x 5 k)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA C01 A02 IFE"
+  },
+  {
+    "codigo": "1020622",
+    "nombre": "AZÚCAR; blanco, común, (x 25kg)",
+    "minimo": 165,
+    "maximo": 650,
+    "bin": "CA C01 A03 IFE"
+  },
+  {
+    "codigo": "1011661",
+    "nombre": "VINO; tinto, malbec, SANTA JULIA, varietal (x 750 cm3)",
+    "minimo": 90,
+    "maximo": 360,
+    "bin": "CA C01 B01"
+  },
+  {
+    "codigo": "1011616",
+    "nombre": "VINO; blanco, SANTA JULIA (x 750 cm3)",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA C01 B02"
+  },
+  {
+    "codigo": "1018362",
+    "nombre": "ACEITE; de girasol, CAÑUELAS / PUREZA (x 1,5 l)",
+    "minimo": 50,
+    "maximo": 200,
+    "bin": "CA C01 B03"
+  },
+  {
+    "codigo": "1028998",
+    "nombre": "ACEITE; de oliva (x 1 l)",
+    "minimo": 90,
+    "maximo": 350,
+    "bin": "CA C01 B04"
+  },
+  {
+    "codigo": "1014205",
+    "nombre": "ACEITE; de girasol (x 5 l)",
+    "minimo": 15,
+    "maximo": 64,
+    "bin": "CA C02 A01 IFE"
+  },
+  {
+    "codigo": "1006308",
+    "nombre": "LECHE; descremada, larga vida, cartón (x 1 l)",
+    "minimo": 325,
+    "maximo": 1300,
+    "bin": "CA C02 A02"
+  },
+  {
+    "codigo": "1011744",
+    "nombre": "LECHE; entera, larga vida, cartón (x 1 l)",
+    "minimo": 400,
+    "maximo": 1600,
+    "bin": "CA C02 A03 IFE"
+  },
+  {
+    "codigo": "1004863",
+    "nombre": "TAPA; p/pote térmico, descartable, telgopor, 360 cm3 (x 500 u)",
+    "minimo": 0,
+    "maximo": 4,
+    "bin": "CA C02 B01"
+  },
+  {
+    "codigo": "1020183",
+    "nombre": "POTE; de plástico, redondo, c/tapa bisagra, (x 450 g), ROTLEN - M3071 (x 400 u)",
+    "minimo": 0,
+    "maximo": 8,
+    "bin": "CA C02 B03"
+  },
+  {
+    "codigo": "1025124",
+    "nombre": "Pote 380CC - Codigo 1SCO3003 (x600u)",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA C02 B04"
+  },
+  {
+    "codigo": "1004824",
+    "nombre": "BANDEJA; de PP, descartable, c/tapa bisagra, (x 200 u), BANDEX Estuche 145",
+    "minimo": 0,
+    "maximo": 8,
+    "bin": "CA C02 B08"
+  },
+  {
+    "codigo": "1020233",
+    "nombre": "BANDEJA; de PP, descartable, c/tapa bisagra, (x 200 u), BANDEX Estuche 143",
+    "minimo": 0,
+    "maximo": 8,
+    "bin": "CA C02 B09"
+  },
+  {
+    "codigo": "1022127",
+    "nombre": "PAPEL; aluminio, en rollo, p/comida (x 5 m)",
+    "minimo": 20,
+    "maximo": 70,
+    "bin": "CA C51 C01"
+  },
+  {
+    "codigo": "1014374",
+    "nombre": "BOLSA; de arranque, alta densidad (0,25 x 0,35 m)",
+    "minimo": 15,
+    "maximo": 67,
+    "bin": "CA C51 C02"
+  },
+  {
+    "codigo": "1004862",
+    "nombre": "SERVILLETA; de papel, 30 x 30 cm, ELITE (x 1000 u.)",
+    "minimo": 10,
+    "maximo": 30,
+    "bin": "CA C52 CXX"
+  },
+  {
+    "codigo": "1025115",
+    "nombre": "FOLEX; 37 X 50 cm",
+    "minimo": 35,
+    "maximo": 140,
+    "bin": "CA C53 C01"
+  },
+  {
+    "codigo": "1004832",
+    "nombre": "BOLSA; camiseta (40 x 50 cm) alta densidad",
+    "minimo": 3500,
+    "maximo": 14000,
+    "bin": "CA C53 C02"
+  },
+  {
+    "codigo": "1020232",
+    "nombre": "POTE; térmico, redondo, descartable, Telgopor, 360 cm3 (caja x 500 u.)",
+    "minimo": 0,
+    "maximo": 4,
+    "bin": "CA CO2 B02"
+  }
+]

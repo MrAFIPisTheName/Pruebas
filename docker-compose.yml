@@ -1,0 +1,15 @@
+services:
+  warehouse-app:
+    build:
+      context: .
+      args:
+        VITE_GOOGLE_CLIENT_ID: ${VITE_GOOGLE_CLIENT_ID:-}
+        VITE_GOOGLE_SHEET_ID: ${VITE_GOOGLE_SHEET_ID:-}
+        VITE_GOOGLE_SHEET_RANGE: ${VITE_GOOGLE_SHEET_RANGE:-Pedidos!A1}
+        VITE_FIREBASE_API_KEY: ${VITE_FIREBASE_API_KEY:-}
+        VITE_FIREBASE_AUTH_DOMAIN: ${VITE_FIREBASE_AUTH_DOMAIN:-}
+        VITE_FIREBASE_PROJECT_ID: ${VITE_FIREBASE_PROJECT_ID:-}
+        VITE_FIREBASE_APP_ID: ${VITE_FIREBASE_APP_ID:-}
+    ports:
+      - "8080:80"
+    restart: unless-stopped

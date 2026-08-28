@@ -1,0 +1,499 @@
+[
+  {
+    "codigo": "1004581",
+    "nombre": "ALCOHOL; en gel (250 cm3 aprox)",
+    "minimo": 25,
+    "maximo": 100,
+    "bin": "ARMARIO"
+  },
+  {
+    "codigo": "1004924",
+    "nombre": "ALCOHOL; fino, etílico, puro al 96% (x 500 cm3)",
+    "minimo": 90,
+    "maximo": 350,
+    "bin": "ARMARIO"
+  },
+  {
+    "codigo": "1020281",
+    "nombre": "ALCOHOL; líquido, en bidon al 96% (x 5 l)",
+    "minimo": 5,
+    "maximo": 14,
+    "bin": "ARMARIO"
+  },
+  {
+    "codigo": "1004997",
+    "nombre": "LIMPIADOR; desengrasante, p/cocina, Doypack 500 ml",
+    "minimo": 45,
+    "maximo": 180,
+    "bin": "CA A01 A01"
+  },
+  {
+    "codigo": "1005004",
+    "nombre": "LIMPIADOR; cremoso, CIF (x 750 cm3)",
+    "minimo": 25,
+    "maximo": 100,
+    "bin": "CA A01 A02"
+  },
+  {
+    "codigo": "1004989",
+    "nombre": "INSECTICIDA; en aerosol p/moscas y mosquitos",
+    "minimo": 10,
+    "maximo": 30,
+    "bin": "CA A01 C01"
+  },
+  {
+    "codigo": "1004988",
+    "nombre": "INSECTICIDA; aerosol, p/moscas y mosquitos, RAID CASA Y JARDIN (x 360 cm3)",
+    "minimo": 10,
+    "maximo": 30,
+    "bin": "CA A01 C02"
+  },
+  {
+    "codigo": "1004987",
+    "nombre": "INSECTICIDA; aerosol, p/cucarachas y arañas, sin olor, RAID MAX (x 360 cm3)",
+    "minimo": 10,
+    "maximo": 30,
+    "bin": "CA A01 C03"
+  },
+  {
+    "codigo": "1017332",
+    "nombre": "DETERGENTE; líquido lavavajilla, (x 500 ml - 900 ml)",
+    "minimo": 90,
+    "maximo": 350,
+    "bin": "CA A02 AXX"
+  },
+  {
+    "codigo": "1012987",
+    "nombre": "JABÓN; líquido, p/manos, en spray, cartucho descartable (x 400 ml), SCOTT",
+    "minimo": 10,
+    "maximo": 48,
+    "bin": "CA A02 B01"
+  },
+  {
+    "codigo": "1028210",
+    "nombre": "LIMPIADOR; desinfectante, multipróposito (x 1,5 l), ALPHA HP J-FLEX, DIVERSEY",
+    "minimo": 5,
+    "maximo": 12,
+    "bin": "CA A02 B02"
+  },
+  {
+    "codigo": "1010136",
+    "nombre": "REPELENTE; de insectos, aerosol, OFF (x 127/165 cm3)",
+    "minimo": 20,
+    "maximo": 80,
+    "bin": "CA A02 CXX"
+  },
+  {
+    "codigo": "1014162",
+    "nombre": "CEPILLO; dental, p/limpieza",
+    "minimo": 5,
+    "maximo": 24,
+    "bin": "CA A02 D01"
+  },
+  {
+    "codigo": "1020937",
+    "nombre": "ESCOBILLA; p/inodoro c/vaso",
+    "minimo": 0,
+    "maximo": 8,
+    "bin": "CA A02 D02"
+  },
+  {
+    "codigo": "1022852",
+    "nombre": "AGUA DESTILADA; en botella de plástico (x 1 l)",
+    "minimo": 30,
+    "maximo": 120,
+    "bin": "CA A03 A01"
+  },
+  {
+    "codigo": "1023041",
+    "nombre": "AGUA DESTILADA, en bidón x 5 l",
+    "minimo": 5,
+    "maximo": 15,
+    "bin": "CA A03 A02"
+  },
+  {
+    "codigo": "1004934",
+    "nombre": "BOLSA; p/residuos, NEGRA, en rollo (45 x 60 cm)",
+    "minimo": 2000,
+    "maximo": 8000,
+    "bin": "CA A03 B01"
+  },
+  {
+    "codigo": "1004935",
+    "nombre": "BOLSA; p/residuos, NEGRA, en rollo (60 x 90 cm)",
+    "minimo": 500,
+    "maximo": 2000,
+    "bin": "CA A03 B02"
+  },
+  {
+    "codigo": "1023449",
+    "nombre": "BOLSA; p/reciclados, VERDE, en rollo o paquete (45 x 60 cm)",
+    "minimo": 165,
+    "maximo": 650,
+    "bin": "CA A03 C01"
+  },
+  {
+    "codigo": "1017334",
+    "nombre": "BOLSA; p/reciclados, VERDE, en rollo/paquete (60 x 90 cm)",
+    "minimo": 250,
+    "maximo": 1000,
+    "bin": "CA A03 C02"
+  },
+  {
+    "codigo": "1004993",
+    "nombre": "JABÓN; de tocador (x 125 g)",
+    "minimo": 150,
+    "maximo": 600,
+    "bin": "CA B01 B01"
+  },
+  {
+    "codigo": "1004991",
+    "nombre": "JABÓN; en pan blanco",
+    "minimo": 30,
+    "maximo": 120,
+    "bin": "CA B01 B02"
+  },
+  {
+    "codigo": "1023027",
+    "nombre": "CINTA; p/rotular en telas, BROTHER TZE-FA3",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA B01 C01"
+  },
+  {
+    "codigo": "1023281",
+    "nombre": "CINTA; p/rotuladora, 12mm -TZc 231",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA B01 C02"
+  },
+  {
+    "codigo": "1004808",
+    "nombre": "PILA; chica AA (batería)",
+    "minimo": 75,
+    "maximo": 300,
+    "bin": "CA B01 C03"
+  },
+  {
+    "codigo": "1004806",
+    "nombre": "PILA; chica AAA (batería)",
+    "minimo": 65,
+    "maximo": 250,
+    "bin": "CA B01 C04"
+  },
+  {
+    "codigo": "1006620",
+    "nombre": "BATERÍA; CR 2032",
+    "minimo": 5,
+    "maximo": 10,
+    "bin": "CA B01 C05"
+  },
+  {
+    "codigo": "1004805",
+    "nombre": "BATERÍA; 9 V",
+    "minimo": 5,
+    "maximo": 10,
+    "bin": "CA B01 C06"
+  },
+  {
+    "codigo": "1004809",
+    "nombre": "PILA; mediana C (batería)",
+    "minimo": 5,
+    "maximo": 12,
+    "bin": "CA B01 C07"
+  },
+  {
+    "codigo": "1004807",
+    "nombre": "PILA; grande D (batería)",
+    "minimo": 10,
+    "maximo": 30,
+    "bin": "CA B01 C08"
+  },
+  {
+    "codigo": "1004907",
+    "nombre": "FÓSFORO; (x 400 u)",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA B01 DXX"
+  },
+  {
+    "codigo": "1013394",
+    "nombre": "GUANTE; de nitrilo, azul, S (x 100 u)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA B02 A01"
+  },
+  {
+    "codigo": "1028622",
+    "nombre": "GUANTE; de nitrilo, M (x 100 u)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA B02 A02"
+  },
+  {
+    "codigo": "1028624",
+    "nombre": "GUANTE; de nitrilo, azul, XL (x 100 u)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA B02 B01"
+  },
+  {
+    "codigo": "1028623",
+    "nombre": "GUANTE; de nitrilo, azul, L (x 100 u)",
+    "minimo": 25,
+    "maximo": 100,
+    "bin": "CA B02 B02"
+  },
+  {
+    "codigo": "1020103",
+    "nombre": "PAÑO; de limpieza, industrial, FUERZA MAX, X-75 WYPALL (x 480 paños)",
+    "minimo": 5,
+    "maximo": 10,
+    "bin": "CA B02 CXX"
+  },
+  {
+    "codigo": "1021614",
+    "nombre": "QUITAMANCHAS; p/ropa, TRENET (400 - 500 ml aprox )",
+    "minimo": 20,
+    "maximo": 80,
+    "bin": "CA B03 A01"
+  },
+  {
+    "codigo": "1006480",
+    "nombre": "APRESTO; p/ropa, c/gatillador, ROBIN (x 500 ml)",
+    "minimo": 15,
+    "maximo": 50,
+    "bin": "CA B03 A02"
+  },
+  {
+    "codigo": "1020057",
+    "nombre": "PULVERIZADOR; de plástico, a presión previa, GIBER (x 1,5 l)",
+    "minimo": 5,
+    "maximo": 12,
+    "bin": "CA B03 A03"
+  },
+  {
+    "codigo": "1012082",
+    "nombre": "PROLONGADOR; multinorma, 4 tomas, con cable, CAMBRE – 1000",
+    "minimo": 0,
+    "maximo": 8,
+    "bin": "CA B03 B01"
+  },
+  {
+    "codigo": "1004983",
+    "nombre": "GATILLO; p/recipiente 500 / 1000 ml.",
+    "minimo": 15,
+    "maximo": 60,
+    "bin": "CA B03 B02"
+  },
+  {
+    "codigo": "1004980",
+    "nombre": "PAÑO; de fibra, 120 x 100 mm",
+    "minimo": 15,
+    "maximo": 50,
+    "bin": "CA B03 B03"
+  },
+  {
+    "codigo": "1004978",
+    "nombre": "FIBRA; parrillera (120 x 160 mm)",
+    "minimo": 15,
+    "maximo": 50,
+    "bin": "CA B03 B04"
+  },
+  {
+    "codigo": "1007817",
+    "nombre": "LANA; de acero, en rollitos, (paquete), VIRULANA",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA B03 B05"
+  },
+  {
+    "codigo": "1019383",
+    "nombre": "BARBIJO: quirúrgico",
+    "minimo": 125,
+    "maximo": 500,
+    "bin": "CA B03 C01"
+  },
+  {
+    "codigo": "1020279",
+    "nombre": "PICO; de plástico p/pulverizador, GIBER",
+    "minimo": 0,
+    "maximo": 6,
+    "bin": "CA B03 C02"
+  },
+  {
+    "codigo": "1021302",
+    "nombre": "KIT; de reparación, p/pulverizador a presión, GIBER 1,5 Litros",
+    "minimo": 5,
+    "maximo": 10,
+    "bin": "CA B03 C03"
+  },
+  {
+    "codigo": "1010892",
+    "nombre": "DESODORIZADOR; de ambiente, repuesto p/dispenser automático, GLADE (x 175cc)",
+    "minimo": 10,
+    "maximo": 35,
+    "bin": "CA B03 C04"
+  },
+  {
+    "codigo": "1004976",
+    "nombre": "ESPONJA; cuadriculada",
+    "minimo": 100,
+    "maximo": 400,
+    "bin": "CA B03 D01"
+  },
+  {
+    "codigo": "1005025",
+    "nombre": "PAÑO; doble cara, esponja y bronce",
+    "minimo": 95,
+    "maximo": 380,
+    "bin": "CA B03 D02"
+  },
+  {
+    "codigo": "1005043",
+    "nombre": "ESPONJA; de acero inoxidable",
+    "minimo": 25,
+    "maximo": 100,
+    "bin": "CA B03 D03"
+  },
+  {
+    "codigo": "1024322",
+    "nombre": "SUAVIZANTE; líquido, p/ropa, CLAX SOFT FRESH, 50A1,DIVERSEY (x20L)",
+    "minimo": 0,
+    "maximo": 5,
+    "bin": "CA C01 A01"
+  },
+  {
+    "codigo": "1007677",
+    "nombre": "BLANQUEADOR; clorado, CLAX HYPO, 4AL1, DIVERSEY (x 20 l)",
+    "minimo": 25,
+    "maximo": 100,
+    "bin": "CA C01 A02"
+  },
+  {
+    "codigo": "1022260",
+    "nombre": "NEUTRALIZANTE;  líquido, CLAX CID, 6BL1, DIVERSEY",
+    "minimo": 30,
+    "maximo": 120,
+    "bin": "CA C01 A03"
+  },
+  {
+    "codigo": "1024181",
+    "nombre": "DETERGENTE; p/ropa, DIVERFLOW, 156, VS2, (x 28 Kg.)",
+    "minimo": 0,
+    "maximo": 4,
+    "bin": "CA C01 A04"
+  },
+  {
+    "codigo": "1009388",
+    "nombre": "DETERGENTE; líquido, p/ropa, enzimático, CLAX MILD, 3RL1, DIVERSEY",
+    "minimo": 30,
+    "maximo": 120,
+    "bin": "CA C01 A05"
+  },
+  {
+    "codigo": "1023400",
+    "nombre": "PAPEL; higiénico, hoja simple, blanco, alto metraje, 500 m (caja x 4 u.)",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA C01 A06"
+  },
+  {
+    "codigo": "1020252",
+    "nombre": "SUAVIZANTE; p/ropa, con perfume, VIVERE CLASICO (x 900 ml)",
+    "minimo": 100,
+    "maximo": 400,
+    "bin": "CA C01 B01"
+  },
+  {
+    "codigo": "1010826",
+    "nombre": "JABÓN; líquido, p/ropa, WOOLITE TODOS LOS DIAS - Doypack (450 ml / 900 ml)",
+    "minimo": 65,
+    "maximo": 260,
+    "bin": "CA C01 B02"
+  },
+  {
+    "codigo": "1011493",
+    "nombre": "JABÓN; líquido, p/ropa negra, en sachet  WOOLITE BLACK - Doypack",
+    "minimo": 30,
+    "maximo": 120,
+    "bin": "CA C01 B03"
+  },
+  {
+    "codigo": "1009550",
+    "nombre": "JABÓN; líquido, p/ropa, para diluir, botella (x 500 ml) SKIP o ARIEL",
+    "minimo": 75,
+    "maximo": 300,
+    "bin": "CA C01 B04"
+  },
+  {
+    "codigo": "1023404",
+    "nombre": "TOALLA; de papel, p/manos, en rollo, blanco, 200 m, SCOTT (caja x 4 u.)",
+    "minimo": 10,
+    "maximo": 30,
+    "bin": "CA C01 B05"
+  },
+  {
+    "codigo": "1009235",
+    "nombre": "HIPOCLORITO DE SODIO; LAVANDINA",
+    "minimo": 65,
+    "maximo": 250,
+    "bin": "CA C51 A01"
+  },
+  {
+    "codigo": "1024318",
+    "nombre": "LAVANDINA; p/ropa blanca, (x 650ml - 1lt)",
+    "minimo": 35,
+    "maximo": 140,
+    "bin": "CA C51 A02"
+  },
+  {
+    "codigo": "1004938",
+    "nombre": "BOLSA; p/residuos, NEGRA, (90 x 150 cm), 70 micrones",
+    "minimo": 500,
+    "maximo": 2000,
+    "bin": "CA C51 A03"
+  },
+  {
+    "codigo": "1017333",
+    "nombre": "BOLSA; p/reciclados, VERDE, (90 x 150 cm) 70 micrones",
+    "minimo": 225,
+    "maximo": 900,
+    "bin": "CA C51 A04"
+  },
+  {
+    "codigo": "1010783",
+    "nombre": "LIMPIADOR; p/todo tipo de pisos, (x 5 l), STRIDE",
+    "minimo": 0,
+    "maximo": 8,
+    "bin": "CA C51 B01"
+  },
+  {
+    "codigo": "1005046",
+    "nombre": "JABÓN; líquido, p/manos, con fragancia (x 5 l), ALL PURPOSE, DIVERSEY",
+    "minimo": 5,
+    "maximo": 12,
+    "bin": "CA C51 B02"
+  },
+  {
+    "codigo": "1014826",
+    "nombre": "VASO; térmico, descartable, Telgopor, 165/180 cm3 (x 1000 u)",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA C51 CXX"
+  },
+  {
+    "codigo": "1013424",
+    "nombre": "PAPEL; higiénico, doble hoja, blanco, rollo x 30 m (bolsón x 40 u)",
+    "minimo": 30,
+    "maximo": 110,
+    "bin": "CA D01 A01"
+  },
+  {
+    "codigo": "1020629",
+    "nombre": "PAPEL; absorbente, de cocina, rollo, (x 3 u)",
+    "minimo": 175,
+    "maximo": 700,
+    "bin": "CA D01 A02"
+  }
+]

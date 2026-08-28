@@ -1,0 +1,240 @@
+[
+  {
+    "codigo": "1021974",
+    "nombre": "BURLETE; p/freezer, 1 puerta, 720 l, ELECTROLUX - PNC 094155",
+    "minimo": 0,
+    "maximo": 1
+  },
+  {
+    "codigo": "1021968",
+    "nombre": "BURLETE; p/mesa refrigerada de 4 ½ cajones, y p/mesa de 3 ½ puertas, ELECTROLUX - PNC 095239",
+    "minimo": 0,
+    "maximo": 2
+  },
+  {
+    "codigo": "1021969",
+    "nombre": "BURLETE; p/mesa refrigerada, 3 puertas, ELECTROLUX - PNC 095238",
+    "minimo": 0,
+    "maximo": 2
+  },
+  {
+    "codigo": "1021977",
+    "nombre": "BURLETE; p/puerta de horno ELECTROLUX AOS101ETA1 (pequeño) - PNC 0C1477",
+    "minimo": 0,
+    "maximo": 1
+  },
+  {
+    "codigo": "1014498",
+    "nombre": "RESISTENCIA; p/cámara, 400V/8000W, p/horno ELECTROLUX - PNC 0C5365",
+    "minimo": 0,
+    "maximo": 2
+  },
+  {
+    "codigo": "1021982",
+    "nombre": "BURLETE; p/puerta, p/freidora ELECTROLUX - PNC 0C2496",
+    "minimo": 0,
+    "maximo": 1
+  },
+  {
+    "codigo": "1024735",
+    "nombre": "BURLETE; magnetico de cajon, (365 x 148 mm), para mesada refrigerada 6 1/2 cajones, ELECTROLUX  - OPRU02",
+    "minimo": 0,
+    "maximo": 1
+  },
+  {
+    "codigo": "1020169",
+    "nombre": "FILTER; for reverse osmosis system, CS-M225 (osmosis)",
+    "minimo": 0,
+    "maximo": 2,
+    "bin": "CA A01 A01"
+  },
+  {
+    "codigo": "1020170",
+    "nombre": "FILTER; for reverse osmosis system, CS-SD20 (sediment)",
+    "minimo": 0,
+    "maximo": 2,
+    "bin": "CA A01 A02"
+  },
+  {
+    "codigo": "1020168",
+    "nombre": "FILTER; for reverse osmosis systems, CS-TOS 20 (chlorine)",
+    "minimo": 0,
+    "maximo": 2,
+    "bin": "CA A01 A03"
+  },
+  {
+    "codigo": "1014499",
+    "nombre": "BURLETE; de puerta, p/horno ELECTROLUX, PNC 0C1889",
+    "minimo": 0,
+    "maximo": 1,
+    "bin": "CA A01 B01"
+  },
+  {
+    "codigo": "1014500",
+    "nombre": "BURLETE; inferior, de puerta, p/horno ELECTROLUX, PNC 0C4131",
+    "minimo": 0,
+    "maximo": 1,
+    "bin": "CA A01 B02"
+  },
+  {
+    "codigo": "1024286",
+    "nombre": "BURLETE; labio p/secado, delantero, p/ lavadora de piso Swingo 755",
+    "minimo": 0,
+    "maximo": 4,
+    "bin": "CA A01 B03"
+  },
+  {
+    "codigo": "1024288",
+    "nombre": "BURLETE; labio p/secado, trasero, p/ lavadora de piso Swingo 755",
+    "minimo": 0,
+    "maximo": 4,
+    "bin": "CA A01 B04"
+  },
+  {
+    "codigo": "1021996",
+    "nombre": "BURLETE; p/puerta, p/abatidor ELECTROLUX - PNC 089841",
+    "minimo": 0,
+    "maximo": 1,
+    "bin": "CA A01 B05"
+  },
+  {
+    "codigo": "1023094",
+    "nombre": "FILTRO; pads de escape, para aspiradora TASKI AERO 8/15 (x pack 10)",
+    "minimo": 0,
+    "maximo": 2,
+    "bin": "CA A01 C01"
+  },
+  {
+    "codigo": "1023296",
+    "nombre": "FORZADOR; p/cámara frigorífica, 25 w, ELECTROLUX / MISASPLIT MSG 13P/6ZSS",
+    "minimo": 0,
+    "maximo": 1,
+    "bin": "CA A01 C02"
+  },
+  {
+    "codigo": "1021316",
+    "nombre": "FUENTE; de alimentación, conmutada, p/horno eléctrico ELECTROLUX - PNC 007047",
+    "minimo": 0,
+    "maximo": 1,
+    "bin": "CA A01 C03"
+  },
+  {
+    "codigo": "1023298",
+    "nombre": "RESISTENCIA; p/cámara frigorifica, ELECTROLUX PTC 230W 230V",
+    "minimo": 0,
+    "maximo": 4,
+    "bin": "CA A01 C04"
+  },
+  {
+    "codigo": "1014668",
+    "nombre": "RESISTENCIA; p/deshielo, p/abatidor ELECTROLUX - PNC 89862",
+    "minimo": 0,
+    "maximo": 1,
+    "bin": "CA A01 C05"
+  },
+  {
+    "codigo": "1004595",
+    "nombre": "MAMELUCO; de papel descartable (M)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA A02 B01"
+  },
+  {
+    "codigo": "1004594",
+    "nombre": "MAMELUCO; de papel descartable (L)",
+    "minimo": 10,
+    "maximo": 40,
+    "bin": "CA A02 B02"
+  },
+  {
+    "codigo": "1004596",
+    "nombre": "MAMELUCO; de papel descartable (XG)",
+    "minimo": 10,
+    "maximo": 30,
+    "bin": "CA A02 B03"
+  },
+  {
+    "codigo": "1021971",
+    "nombre": "BURLETE; p/armario refrigerado, 2 ½ puertas, ELECTROLUX - PNC 094153",
+    "minimo": 0,
+    "maximo": 1,
+    "bin": "CA A02 C01"
+  },
+  {
+    "codigo": "1023422",
+    "nombre": "TAPON; protector auditivo, LIBUS QUANTUM",
+    "minimo": 65,
+    "maximo": 250,
+    "bin": "CA A02 C01"
+  },
+  {
+    "codigo": "1020086",
+    "nombre": "RESPIRADOR; N95, sin válvula de exhalacíon, (x 1u)",
+    "minimo": 50,
+    "maximo": 200,
+    "bin": "CA A02 C02"
+  },
+  {
+    "codigo": "1004602",
+    "nombre": "ANTEOJOS; de seguridad, oscuro",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A02 C03"
+  },
+  {
+    "codigo": "1018858",
+    "nombre": "ANTEOJOS; de seguridad, transparente",
+    "minimo": 15,
+    "maximo": 50,
+    "bin": "CA A02 C04"
+  },
+  {
+    "codigo": "1014622",
+    "nombre": "GUANTE; de nitrilo, dorso ventilado, MAPA ULTRANE 525 - 7/S",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A03 B01"
+  },
+  {
+    "codigo": "1014621",
+    "nombre": "GUANTE; de nitrilo, dorso ventilado, MAPA ULTRANE 525 - 8/M",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A03 B02"
+  },
+  {
+    "codigo": "1014435",
+    "nombre": "GUANTE; de nitrilo, dorso ventilado, MAPA ULTRANE 525 - 9/L",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A03 B03"
+  },
+  {
+    "codigo": "1019142",
+    "nombre": "GUANTE; de poliuretano, dorso ventilado, puño tejido, 7/S",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A03 C01"
+  },
+  {
+    "codigo": "1019141",
+    "nombre": "GUANTE; de poliuretano, dorso ventilado, puño tejido, 8/M",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A03 C02"
+  },
+  {
+    "codigo": "1021972",
+    "nombre": "BURLETE; p/armario refrigerado, 2 puertas, 1430 l, ELECTROLUX - PNC 093257",
+    "minimo": 0,
+    "maximo": 2,
+    "bin": "CA A03 C02"
+  },
+  {
+    "codigo": "1019140",
+    "nombre": "GUANTE; de poliuretano, dorso ventilado, puño tejido, 9/L",
+    "minimo": 5,
+    "maximo": 20,
+    "bin": "CA A03 C03"
+  }
+]
