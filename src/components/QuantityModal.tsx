@@ -28,7 +28,7 @@ export function QuantityModal({ open, onClose, onConfirm, initialValue }: Props)
     <Dialog open={open} onClose={onClose} fullWidth maxWidth="xs" disableScrollLock>
       <DialogTitle>¿Cuánto contaste?</DialogTitle>
       <DialogContent>
-        <TextField autoFocus fullWidth type="number" label="Cantidad contada" margin="dense"
+        <TextField fullWidth type="number" label="Cantidad contada" margin="dense"
           value={value} error={error} helperText={error ? "Ingresá un número entero mayor o igual a 0." : ""}
           onChange={(e) => { setValue(e.target.value); setError(false); }}
           inputProps={{ min: 0, step: 1 }} />
