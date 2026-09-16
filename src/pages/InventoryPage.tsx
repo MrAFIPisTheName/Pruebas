@@ -1,6 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
-import { Alert, Box, Button, Container, IconButton, Stack, Tooltip, Typography } from "@mui/material";
+import {
+  Alert, Box, Button, Container, Dialog, DialogActions, DialogContent,
+  DialogContentText, DialogTitle, IconButton, Stack, Tooltip, Typography
+} from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import RestartAltIcon from "@mui/icons-material/RestartAlt";
 import WarehouseIcon from "@mui/icons-material/Warehouse";
 import { warehouseLabel } from "../constants/warehouse";
 import { ItemCard } from "../components/ItemCard";
@@ -11,10 +15,11 @@ import { useCatalog } from "../hooks/useCatalog";
 import { useInventoryStore } from "../store/inventory.store";
 
 export function InventoryPage({ onFinish, onBack }: { onFinish: () => void; onBack: () => void }) {
-  const { warehouse, index, counts, setCount, setIndex } = useInventoryStore();
+  const { warehouse, index, counts, setCount, setIndex, resetCounts } = useInventoryStore();
   const catalog = useCatalog(warehouse);
   const [search, setSearch] = useState("");
   const [quantityOpen, setQuantityOpen] = useState(false);
+  const [confirmResetOpen, setConfirmResetOpen] = useState(false);
 
   const filtered = useMemo(() => {
     const q = search.trim().toLocaleLowerCase();
@@ -103,6 +108,14 @@ export function InventoryPage({ onFinish, onBack }: { onFinish: () => void; onBa
             </Button>
           )}
           <Button variant="text" onClick={onFinish}>Ver resumen</Button>
+          <Button
+            variant="outlined"
+            color="error"
+            startIcon={<RestartAltIcon />}
+            onClick={() => setConfirmResetOpen(true)}
+          >
+            Reiniciar conteo
+          </Button>
         </Stack>
       </Stack>
       {item && (
@@ -110,6 +123,29 @@ export function InventoryPage({ onFinish, onBack }: { onFinish: () => void; onBa
           initialValue={counts[item.codigo]}
           onConfirm={(n) => { setCount(item.codigo, n); setQuantityOpen(false); advance(); }} />
       )}
+      <Dialog open={confirmResetOpen} onClose={() => setConfirmResetOpen(false)}>
+        <DialogTitle>¿Reiniciar el conteo?</DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+            Se van a borrar los {Object.keys(counts).length} ítems ya contados de {warehouseLabel(warehouse)}
+            y vas a volver al primer ítem. Esta acción no se puede deshacer.
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setConfirmResetOpen(false)}>Cancelar</Button>
+          <Button
+            color="error"
+            variant="contained"
+            onClick={() => {
+              resetCounts();
+              setSearch("");
+              setConfirmResetOpen(false);
+            }}
+          >
+            Reiniciar conteo
+          </Button>
+        </DialogActions>
+      </Dialog>
     </Container>
   );
 }

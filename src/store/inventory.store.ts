@@ -11,6 +11,8 @@ interface InventoryState {
   setIndex: (index: number) => void;
   setCount: (codigo: string, cantidadContada: number) => void;
   reset: () => void;
+  /** Reinicia el conteo del depósito actual (índice y cantidades cargadas), sin deseleccionarlo. */
+  resetCounts: () => void;
 }
 
 export const useInventoryStore = create<InventoryState>()(
@@ -25,7 +27,8 @@ export const useInventoryStore = create<InventoryState>()(
       // un conteo de 0 es información real ("está agotado"), no equivale a "sin responder".
       setCount: (codigo, cantidadContada) =>
         set((state) => ({ counts: { ...state.counts, [codigo]: cantidadContada } })),
-      reset: () => set({ warehouse: null, index: 0, counts: {} })
+      reset: () => set({ warehouse: null, index: 0, counts: {} }),
+      resetCounts: () => set({ index: 0, counts: {} })
     }),
     {
       // Nombre nuevo a propósito: una sesión vieja guardaba "cantidad a pedir" bajo la
