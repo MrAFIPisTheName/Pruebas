@@ -96,7 +96,7 @@ export default function App() {
             onOpenAdminCatalog={() => setPage("admin-catalog")}
           />
           {page === "home" && <HomePage value={warehouse} onChange={setWarehouse} onStart={() => setPage("inventory")} />}
-          {page === "inventory" && <InventoryPage onFinish={() => setPage("summary")} />}
+          {page === "inventory" && <InventoryPage onFinish={() => setPage("summary")} onBack={() => setPage("home")} />}
           {page === "summary" && <SummaryPage onNewOrder={() => { reset(); setPage("home"); }} />}
           {page === "admin-catalog" && <AdminCatalogPage onBack={() => setPage("home")} />}
         </AuthGate>

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
-import { Alert, Box, Button, Container, Stack, Typography } from "@mui/material";
+import { Alert, Box, Button, Container, IconButton, Stack, Tooltip, Typography } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import WarehouseIcon from "@mui/icons-material/Warehouse";
 import { warehouseLabel } from "../constants/warehouse";
 import { ItemCard } from "../components/ItemCard";
 import { ProgressBar } from "../components/ProgressBar";
@@ -9,7 +10,7 @@ import { SearchBox } from "../components/SearchBox";
 import { useCatalog } from "../hooks/useCatalog";
 import { useInventoryStore } from "../store/inventory.store";
 
-export function InventoryPage({ onFinish }: { onFinish: () => void }) {
+export function InventoryPage({ onFinish, onBack }: { onFinish: () => void; onBack: () => void }) {
   const { warehouse, index, counts, setCount, setIndex } = useInventoryStore();
   const catalog = useCatalog(warehouse);
   const [search, setSearch] = useState("");
@@ -51,9 +52,16 @@ export function InventoryPage({ onFinish }: { onFinish: () => void }) {
   return (
     <Container maxWidth="lg" sx={{ py: { xs: 2, sm: 4 } }}>
       <Stack spacing={2}>
-        <Box>
-          <Typography variant="h5" fontWeight={800}>Pedido {warehouseLabel(warehouse)}</Typography>
-          <Typography color="text.secondary">{filtered.length} ítems visibles</Typography>
+        <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+          <Tooltip title="Volver a selección de depósito">
+            <IconButton onClick={onBack} aria-label="Volver a selección de depósito" edge="start">
+              <WarehouseIcon />
+            </IconButton>
+          </Tooltip>
+          <Box>
+            <Typography variant="h5" fontWeight={800}>Pedido {warehouseLabel(warehouse)}</Typography>
+            <Typography color="text.secondary">{filtered.length} ítems visibles</Typography>
+          </Box>
         </Box>
         <SearchBox value={search} onChange={(v) => { setSearch(v); setIndex(0); }} />
         <ProgressBar current={filtered.length ? safeIndex + 1 : 0} total={filtered.length} />
