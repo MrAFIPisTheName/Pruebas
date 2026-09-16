@@ -27,7 +27,10 @@ function TopBar({
   const user = useAuthUser();
   const role = useUserRole(user);
   return (
-    <header style={{ position: "sticky", top: 0, zIndex: 10, backdropFilter: "blur(12px)" }}>
+    <header style={{
+      position: "sticky", top: 0, zIndex: 10,
+      background: dark ? "rgba(18,18,18,0.92)" : "rgba(255,255,255,0.92)"
+    }}>
       <Box sx={{
         maxWidth: 1000, mx: "auto", px: 2, py: 1,
         display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 1
