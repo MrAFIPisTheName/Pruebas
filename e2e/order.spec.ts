@@ -82,8 +82,8 @@ test("volver atrás conserva el conteo y lo precarga para editar", async ({ page
   await page.getByRole("button", { name: "Confirmar" }).click();
   await expect(page.getByText("1011775")).toBeVisible();
 
-  // "Atrás" debe volver al primer ítem y mostrar que ya tiene un conteo (0) guardado.
-  await page.getByRole("button", { name: "Atrás" }).click();
+  // "Ítem anterior" debe volver al primer ítem y mostrar que ya tiene un conteo (0) guardado.
+  await page.getByRole("button", { name: "Ítem anterior" }).click();
   await expect(page.getByText("1020291")).toBeVisible();
   await expect(page.getByText(/Contado: 0/)).toBeVisible();
 

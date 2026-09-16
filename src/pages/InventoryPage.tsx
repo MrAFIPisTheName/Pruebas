@@ -95,7 +95,7 @@ export function InventoryPage({ onFinish, onBack }: { onFinish: () => void; onBa
             disabled={safeIndex === 0 || !item}
             onClick={goBack}
           >
-            Atrás
+            Ítem anterior
           </Button>
           {!item && search && (
             <Button variant="outlined" onClick={() => { setSearch(""); setIndex(0); }}>

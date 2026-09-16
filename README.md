@@ -290,7 +290,7 @@ la consola — no hace falta redesplegar la app.
   contado, izquierda = omitir el ítem sin registrar conteo.
 - Administrador/a puede cargar una lista nueva por depósito desde la app
   (ícono de carga en la barra superior) — ver "Cargar listas de ítems".
-- Botón "Atrás" para volver al ítem anterior sin perder el conteo ya
+- Botón "Ítem anterior" para volver al ítem anterior sin perder el conteo ya
   cargado. Si se vuelve a abrir el modal de cantidad para un ítem ya
   contado, el campo aparece precargado con ese valor — "Cancelar" deja el
   conteo como estaba, "Confirmar" lo actualiza.
