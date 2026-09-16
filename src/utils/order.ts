@@ -2,7 +2,8 @@ import type { InventoryItem, OrderLine } from "../types";
 
 /**
  * Reglas de negocio confirmadas con el usuario:
- * - Corresponde pedir un ítem cuando la cantidad contada es menor al mínimo.
+ * - Corresponde pedir un ítem cuando la cantidad contada es menor o igual al mínimo
+ *   (incluye el caso mínimo = 0: si se cuenta 0, dispara pedido igual).
  * - La cantidad a pedir es (máximo - contada).
  * Ítems sin conteo registrado (no aparecen en `counts`) se excluyen del pedido.
  */
@@ -11,7 +12,7 @@ export function computeOrderLines(catalog: InventoryItem[], counts: Record<strin
   for (const item of catalog) {
     const counted = counts[item.codigo];
     if (counted === undefined || !Number.isFinite(counted)) continue;
-    if (counted >= item.minimo) continue;
+    if (counted > item.minimo) continue;
     const cantidad = item.maximo - counted;
     if (cantidad > 0) {
       lines.push({ codigo: item.codigo, nombre: item.nombre, cantidad });

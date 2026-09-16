@@ -13,8 +13,7 @@ describe("computeOrderLines", () => {
     expect(computeOrderLines(catalog, {})).toEqual([]);
   });
 
-  it("no pide un ítem si lo contado es igual o mayor al mínimo", () => {
-    expect(computeOrderLines(catalog, { A: 10 })).toEqual([]);
+  it("no pide un ítem si lo contado es mayor al mínimo", () => {
     expect(computeOrderLines(catalog, { A: 15 })).toEqual([]);
   });
 
@@ -24,15 +23,28 @@ describe("computeOrderLines", () => {
     ]);
   });
 
+  it("pide (máximo - contado) cuando lo contado es igual al mínimo", () => {
+    expect(computeOrderLines(catalog, { A: 10 })).toEqual([
+      { codigo: "A", nombre: "Item A", cantidad: 10 }
+    ]);
+  });
+
   it("un conteo de 0 (agotado) también dispara el pedido", () => {
     expect(computeOrderLines(catalog, { B: 0 })).toEqual([
       { codigo: "B", nombre: "Item B", cantidad: 15 }
     ]);
   });
 
-  it("un mínimo de 0 nunca dispara pedido (ningún conteo es menor a 0)", () => {
+  it("un mínimo de 0 dispara pedido si se cuenta exactamente 0", () => {
     const zeroMinCatalog: InventoryItem[] = [{ codigo: "Z", nombre: "Item Z", minimo: 0, maximo: 10 }];
-    expect(computeOrderLines(zeroMinCatalog, { Z: 0 })).toEqual([]);
+    expect(computeOrderLines(zeroMinCatalog, { Z: 0 })).toEqual([
+      { codigo: "Z", nombre: "Item Z", cantidad: 10 }
+    ]);
+  });
+
+  it("un mínimo de 0 no dispara pedido si se cuenta más de 0", () => {
+    const zeroMinCatalog: InventoryItem[] = [{ codigo: "Z", nombre: "Item Z", minimo: 0, maximo: 10 }];
+    expect(computeOrderLines(zeroMinCatalog, { Z: 1 })).toEqual([]);
   });
 
   it("ignora ítems que no están en el catálogo filtrado", () => {

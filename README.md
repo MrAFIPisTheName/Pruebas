@@ -25,21 +25,21 @@ Librería es el único depósito cuyo Excel no trae esa columna.
 
 **A tener en cuenta en MNT:** muchos repuestos de mantenimiento tienen un
 `MAX quantity` muy bajo (1-2 unidades). Con la fórmula del mínimo, **22 de los
-35 ítems de MNT quedan con `mínimo = 0`**, así que nunca van a disparar un
-pedido automáticamente (es la fórmula funcionando como se definió, no un
-bug) — si algún ítem de MNT necesita pedirse igual, hoy no hay forma de
-forzarlo desde la app.
+35 ítems de MNT quedan con `mínimo = 0`** — con la lógica de pedido actual
+(ver abajo), esos ítems solo disparan pedido si se cuenta exactamente `0`;
+cualquier conteo mayor a `0` no dispara nada para ellos.
 
 ## Lógica de pedido
 
 El usuario carga **la cantidad contada físicamente** de cada ítem (no la
 cantidad a pedir). La app calcula el pedido sola:
 
-- Se pide un ítem cuando `cantidad contada < mínimo`.
+- Se pide un ítem cuando `cantidad contada <= mínimo` (incluye el caso en que
+  coinciden exactamente).
 - La cantidad a pedir es `máximo - cantidad contada`.
 - Un conteo de `0` es un valor válido (ítem agotado) y se trata igual que
-  cualquier otro número — dispara pedido si `0 < mínimo`.
-- Ítems con `mínimo = 0` nunca disparan pedido (ningún conteo es menor a 0).
+  cualquier otro número — dispara pedido si `0 <= mínimo` (por lo tanto,
+  siempre que el mínimo sea `0` o más, que es todos los casos).
 
 Ver `src/utils/order.ts` (`computeOrderLines`) y sus tests en `tests/order.test.ts`.
 
