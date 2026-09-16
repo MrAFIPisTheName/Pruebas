@@ -1,5 +1,10 @@
 import { useEffect, useState, type FormEvent, type ReactNode } from "react";
-import { Alert, Box, Button, Card, CardContent, CircularProgress, TextField, Typography } from "@mui/material";
+import {
+  Alert, Box, Button, Card, CardContent, CircularProgress, IconButton,
+  InputAdornment, TextField, Typography
+} from "@mui/material";
+import VisibilityIcon from "@mui/icons-material/Visibility";
+import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import type { User } from "firebase/auth";
 import { AuthContext } from "../context/AuthContext";
 import { isAuthConfigured, loginWithUsername, subscribeToAuthState } from "../services/firebase";
@@ -12,6 +17,7 @@ export function AuthGate({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -53,7 +59,12 @@ export function AuthGate({ children }: { children: ReactNode }) {
     try {
       await loginWithUsername(username, password);
       // No hace falta tocar `user` acá: subscribeToAuthState lo actualiza solo
-      // apenas Firebase confirma el login.
+      // apenas Firebase confirma el login. Sí limpiamos la contraseña del estado:
+      // este componente no se desmonta al loguearse (sigue montado por si se
+      // cierra sesión más adelante), así que sin esto quedaría en memoria y
+      // reaparecería precargada en el campo la próxima vez que se viera el form.
+      setPassword("");
+      setShowPassword(false);
     } catch (err) {
       setError(err instanceof Error ? err.message : "No se pudo iniciar sesión.");
     } finally {
@@ -80,12 +91,28 @@ export function AuthGate({ children }: { children: ReactNode }) {
           />
           <TextField
             fullWidth
-            type="password"
+            type={showPassword ? "text" : "password"}
             label="Contraseña"
             margin="normal"
             value={password}
             onChange={(e) => { setPassword(e.target.value); setError(null); }}
             inputProps={{ "aria-label": "Contraseña" }}
+            slotProps={{
+              input: {
+                endAdornment: (
+                  <InputAdornment position="end">
+                    <IconButton
+                      onClick={() => setShowPassword((v) => !v)}
+                      aria-label={showPassword ? "Ocultar contraseña" : "Mostrar contraseña"}
+                      edge="end"
+                      tabIndex={-1}
+                    >
+                      {showPassword ? <VisibilityOffIcon /> : <VisibilityIcon />}
+                    </IconButton>
+                  </InputAdornment>
+                )
+              }
+            }}
           />
           {error && <Alert severity="error" sx={{ mt: 1 }}>{error}</Alert>}
           <Button
