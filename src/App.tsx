@@ -29,7 +29,8 @@ function TopBar({
   return (
     <header style={{
       position: "sticky", top: 0, zIndex: 10,
-      background: dark ? "rgba(18,18,18,0.92)" : "rgba(255,255,255,0.92)"
+      background: dark ? "rgba(18,18,18,0.92)" : "rgba(255,255,255,0.92)",
+      willChange: "transform"
     }}>
       <Box sx={{
         maxWidth: 1000, mx: "auto", px: 2, py: 1,
