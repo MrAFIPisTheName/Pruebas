@@ -1,7 +1,7 @@
 import { useEffect, useState, type FormEvent, type ReactNode } from "react";
 import {
-  Alert, Box, Button, Card, CardContent, CircularProgress, IconButton,
-  InputAdornment, TextField, Typography
+  Alert, Box, Button, Card, CardContent, Checkbox, CircularProgress, FormControlLabel,
+  IconButton, InputAdornment, TextField, Typography
 } from "@mui/material";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
@@ -18,6 +18,8 @@ export function AuthGate({ children }: { children: ReactNode }) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
+  // Por defecto la sesión se cierra sola al cerrar la app (persistencia de sesión).
+  const [rememberMe, setRememberMe] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -57,7 +59,7 @@ export function AuthGate({ children }: { children: ReactNode }) {
     setError(null);
     setLoading(true);
     try {
-      await loginWithUsername(username, password);
+      await loginWithUsername(username, password, rememberMe);
       // No hace falta tocar `user` acá: subscribeToAuthState lo actualiza solo
       // apenas Firebase confirma el login. Sí limpiamos la contraseña del estado:
       // este componente no se desmonta al loguearse (sigue montado por si se
@@ -113,6 +115,16 @@ export function AuthGate({ children }: { children: ReactNode }) {
                 )
               }
             }}
+          />
+          <FormControlLabel
+            sx={{ mt: 1 }}
+            control={
+              <Checkbox
+                checked={rememberMe}
+                onChange={(e) => setRememberMe(e.target.checked)}
+              />
+            }
+            label="Mantener sesión iniciada"
           />
           {error && <Alert severity="error" sx={{ mt: 1 }}>{error}</Alert>}
           <Button

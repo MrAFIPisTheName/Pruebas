@@ -191,12 +191,13 @@ oculta. Igual que con Google Sheets, hay que recompilar (`docker compose up
 
 ### Sesión
 
-A diferencia del candado anterior (que pedía la contraseña de nuevo en cada
-sesión del navegador), el login ahora **persiste** — una vez logueado, la
-persona sigue logueada hasta que toque "Cerrar sesión" (ícono en la barra
-superior) o borre los datos del sitio. Pensado para un dispositivo de uso
-personal; en un dispositivo compartido entre varias personas, conviene cerrar
-sesión al terminar.
+Por defecto, la sesión se cierra sola al cerrar la app/pestaña — pensado para
+un dispositivo compartido entre varias personas, donde no conviene que quede
+logueada la anterior. El formulario de login tiene un checkbox **"Mantener
+sesión iniciada"**: si se marca, la persona sigue logueada hasta que toque
+"Cerrar sesión" (ícono en la barra superior) o borre los datos del sitio,
+sobreviviendo cerrar y volver a abrir la app — para quien la usa siempre
+desde el mismo dispositivo personal.
 
 ## Cargar listas de ítems (Firestore)
 

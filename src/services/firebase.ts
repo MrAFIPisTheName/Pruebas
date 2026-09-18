@@ -1,7 +1,10 @@
 import { FirebaseApp, FirebaseError, initializeApp, type FirebaseOptions } from "firebase/app";
 import {
+  browserLocalPersistence,
+  browserSessionPersistence,
   getAuth,
   onAuthStateChanged,
+  setPersistence,
   signInWithEmailAndPassword,
   signOut as firebaseSignOut,
   type Auth,
@@ -114,10 +117,20 @@ export function isAuthConfigured(): boolean {
 
 export class AuthError extends Error {}
 
-export async function loginWithUsername(username: string, password: string): Promise<void> {
+/**
+ * @param rememberMe Si es true, la sesión sobrevive cerrar la app/pestaña (persistencia
+ * local, comportamiento anterior). Por defecto la sesión se cierra sola al cerrar la
+ * app: se guarda solo para la pestaña/ventana actual (persistencia de sesión).
+ */
+export async function loginWithUsername(
+  username: string,
+  password: string,
+  rememberMe = false
+): Promise<void> {
   const auth = getFirebaseAuth();
   if (!auth) throw new AuthError("La autenticación no está configurada en este despliegue.");
   try {
+    await setPersistence(auth, rememberMe ? browserLocalPersistence : browserSessionPersistence);
     await signInWithEmailAndPassword(auth, usernameToEmail(username), password);
   } catch (err) {
     const code = err instanceof FirebaseError ? err.code : undefined;
