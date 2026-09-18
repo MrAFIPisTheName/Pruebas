@@ -39,7 +39,9 @@ export type Role = "Administrador/a" | "Comprador/a" | "Mano de depósito";
 const DISPLAY_NAMES: Record<string, string> = {
   mfailde: "MFailde",
   mcascone: "MCascone",
-  gscrosoppi: "GScrosoppi"
+  gscrosoppi: "GScrosoppi",
+  jguardia: "JGuardia",
+  ezumaran: "EZumaran"
 };
 
 export function usernameToEmail(username: string): string {

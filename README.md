@@ -138,6 +138,8 @@ exactamente así para que coincida:
 | MFailde | `mfailde@deposito.local` |
 | MCascone | `mcascone@deposito.local` |
 | GScrosoppi | `gscrosoppi@deposito.local` |
+| JGuardia | `jguardia@deposito.local` |
+| EZumaran | `ezumaran@deposito.local` |
 
 La contraseña de cada uno se carga tal cual en ese mismo formulario de
 Firebase — no la documento acá porque este archivo queda en el repositorio;
@@ -153,6 +155,8 @@ la barra superior:
 | MFailde | Administrador/a |
 | MCascone | Comprador/a |
 | GScrosoppi | Comprador/a |
+| JGuardia | Comprador/a |
+| EZumaran | Comprador/a |
 
 El nombre "bonito" (`MFailde` en vez de `mfailde`) es puramente cosmético y
 vive en `DISPLAY_NAMES` en `src/services/firebase.ts` — si se agrega gente
@@ -280,6 +284,8 @@ en minúscula** (mismo valor que usaste como email al crear la cuenta, sin el
 | `mfailde` | `Administrador/a` |
 | `mcascone` | `Comprador/a` |
 | `gscrosoppi` | `Comprador/a` |
+| `jguardia` | `Comprador/a` |
+| `ezumaran` | `Comprador/a` |
 
 Si en el futuro cambia el rol de alguien, se edita ese campo directamente en
 la consola — no hace falta redesplegar la app.
