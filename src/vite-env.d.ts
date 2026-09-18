@@ -1,4 +1,5 @@
 /// <reference types="vite/client" />
+/// <reference types="vite-plugin-pwa/react" />
 
 interface ImportMetaEnv {
   /** OAuth 2.0 Client ID creado en Google Cloud Console (tipo "Web application"). */

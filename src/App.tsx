@@ -6,6 +6,7 @@ import LogoutIcon from "@mui/icons-material/Logout";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
 import { AuthGate } from "./components/AuthGate";
 import { ErrorBoundary } from "./components/ErrorBoundary";
+import { UpdatePrompt } from "./components/UpdatePrompt";
 import { useAuthUser } from "./context/AuthContext";
 import { useUserRole } from "./hooks/useUserRole";
 import { displayNameFromUser, logout } from "./services/firebase";
@@ -88,6 +89,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <UpdatePrompt />
       <ErrorBoundary onReset={recoverFromError}>
         <AuthGate>
           <TopBar

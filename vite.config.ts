@@ -6,7 +6,10 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      registerType: "autoUpdate",
+      // "prompt" en vez de "autoUpdate": una versión nueva no recarga la página
+      // sola (podría interrumpir a alguien a mitad de un conteo) — se avisa con
+      // un banner y la persona decide cuándo actualizar (ver UpdatePrompt.tsx).
+      registerType: "prompt",
       includeAssets: ["favicon.svg"],
       manifest: {
         name: "Control de Depósito",
